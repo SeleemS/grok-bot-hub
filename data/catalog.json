@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "sections": [
     {
       "id": "official",
@@ -27046,6 +27046,596 @@
       ],
       "aliases": [
         "Cursor Forum"
+      ]
+    },
+    {
+      "id": "youtube-grok-postsales",
+      "added": "2026-10-11",
+      "title": "官方片：用 Grok Bot 做售后",
+      "url": "https://www.youtube.com/watch?v=EGt8FfTmTMY",
+      "blurb": "官方频道这集约三十分钟专讲售后，想看跟进类工作怎样交给 Bot、而不是自己盯一整队的人可以从这里开始。",
+      "section": "official",
+      "tags": [
+        "运营",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Grok",
+        "售后"
+      ]
+    },
+    {
+      "id": "bili-five-bot-motion",
+      "added": "2026-10-11",
+      "title": "五个 Bot 共用一台云电脑，整夜交出动效成片",
+      "url": "https://www.bilibili.com/video/BV1n9pg64Eqa",
+      "blurb": "没有显卡也能过夜出片，导演、动画、渲染、评审和交付共用一台机器，分镜写成规格，文件夹当成进度，睡前点头、早上收成片。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "哔哩哔哩",
+        "BV1n9pg64Eqa"
+      ]
+    },
+    {
+      "id": "bili-four-concepts",
+      "added": "2026-10-11",
+      "title": "换引擎之后怎么用：四个概念搭起 Grok Bot 团队",
+      "url": "https://www.bilibili.com/video/BV1Ttps66Ejz",
+      "blurb": "同一套真实账号里能看到 X 评论生成技能、旅行视频经 Notion 和地图收成攻略，以及报名马拉松在 Muse 和 Grok Bot 上的不同结果。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "插件",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "哔哩哔哩",
+        "BV1Ttps66Ejz",
+        "Muse"
+      ]
+    },
+    {
+      "id": "note-seisei-own-mail",
+      "added": "2026-10-11",
+      "title": "聖星あい：约一分钟领到邮箱，一个账号只能有一个且不能改名",
+      "url": "https://note.com/seisei_ai_1st/n/nbc5d91c93532",
+      "blurb": "她当晚让 Bot 领下 seisei-ai@mail.grokbot.com，并记下一个账号只能有一个、名字事后不能改，新信也不会自己把 Bot 叫醒。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "跑腿"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "mail.grokbot.com"
+      ]
+    },
+    {
+      "id": "note-wad-x-morning",
+      "added": "2026-10-11",
+      "title": "わど：一句话做出 X 早报 Bot，约定 7 点却改成 7 点 10 分",
+      "url": "https://note.com/wad0427/n/nd85a8059f7f1",
+      "blurb": "从新建 Bot 到试跑出五条带原帖链接的 AI 新闻不到五分钟，文中记下 Bot 把约定的 7 点错开成 7 点 10 分，查公开帖不必先连接 X 账号。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "运营"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "わど"
+      ]
+    },
+    {
+      "id": "x-distort-six-bots",
+      "added": "2026-10-11",
+      "title": "六个就够：前门、专岗、看板、闹钟和放行闸",
+      "url": "https://x.com/distortgeekin/status/2108897917729738810",
+      "blurb": "这篇把公开用法收成五天顺序，你只跟幕僚长说话，新领域才另开 Bot，后台审批大约十分钟就过期，拆岗也隔不开大家共用的那台云电脑。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "上手",
+        "安全"
+      ],
+      "aliases": [
+        "X",
+        "distort"
+      ]
+    },
+    {
+      "id": "grokbot-ssh-jump",
+      "added": "2026-10-11",
+      "title": "没有公网地址时，从云电脑反向拨出 SSH",
+      "url": "https://github.com/qx0657/grokbot-ssh-jump",
+      "blurb": "云电脑的 SSH 只听本机回环，由它主动把端口挂到跳板的回环上，笔记本经第二跳登录，公网防火墙不为这扇门开口。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "SSH"
+      ]
+    },
+    {
+      "id": "v2ex-claude-in-vm",
+      "added": "2026-10-11",
+      "title": "在 Grok Bot 云电脑里装 Claude，全程只跟 Bot 对话",
+      "url": "https://www.v2ex.com/t/1247516",
+      "blurb": "楼主把 Tailscale、Orca 和 Claude 装进同一台云电脑，文件经网盘交接，回帖则把更新后配置被清掉、Tailscale 断开和出口 IP 容易撞上风控讲清楚了。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "工程",
+        "排障"
+      ],
+      "aliases": [
+        "V2EX",
+        "Claude",
+        "Tailscale"
+      ]
+    },
+    {
+      "id": "youtube-snapper-email",
+      "added": "2026-10-11",
+      "title": "Snapper：给 Bot 单独领邮箱，三封真信排优先级并试了提示注入",
+      "url": "https://www.youtube.com/watch?v=LD1Tqke7jUg",
+      "blurb": "准备让 Bot 用自己的地址回客户的人，可以看领信箱、给三封信排优先级，以及一封夹带指令的邮件有没有绕过批准。",
+      "section": "tutorials",
+      "tags": [
+        "安全",
+        "上手",
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Snapper AI"
+      ]
+    },
+    {
+      "id": "youtube-easytech-three-orgs",
+      "added": "2026-10-11",
+      "title": "现场搭三套班子：秘书管个人事务、媒体组、开发组",
+      "url": "https://www.youtube.com/watch?v=sfalDE9ERgQ",
+      "blurb": "想看几只 Bot 怎样串成班子的人，可以从这近半小时里的个人秘书组看到媒体组，再看到开发组是怎么立起来的。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "工程",
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "イージーテック"
+      ]
+    },
+    {
+      "id": "bili-holiday-roster",
+      "added": "2026-10-11",
+      "title": "国庆养成的编制：盯粉丝、写稿、改代码",
+      "url": "https://www.bilibili.com/video/BV11mpG6uEey",
+      "blurb": "放假实际跑过的班底可以直接照搬，涨粉日报、本地活动、新闻转写稿，再由一个小负责人把写代码和写文档的 Bot 拉进同一个群。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "哔哩哔哩",
+        "BV11mpG6uEey"
+      ]
+    },
+    {
+      "id": "bili-dead-cells-rogue",
+      "added": "2026-10-11",
+      "title": "过夜交付：一句需求做成能玩的类《死亡细胞》肉鸽",
+      "url": "https://www.bilibili.com/video/BV11tpe6hE2V",
+      "blurb": "只丢了一句优先用开源素材做动作肉鸽，它自己选定 Godot 4、核对素材授权，并把连击、弹反和随机房间交成能玩的实机。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "电脑",
+        "视频"
+      ],
+      "aliases": [
+        "哔哩哔哩",
+        "Godot",
+        "BV11tpe6hE2V"
+      ]
+    },
+    {
+      "id": "jike-guizang-thread-zh",
+      "added": "2026-10-11",
+      "title": "歸藏：难读推串收成手机上能消化的中文长文",
+      "url": "https://m.okjike.com/originalPosts/6aca700e756bbb6658acc03d",
+      "blurb": "一条细节极密的三维建模推串，他让 Grok Bot 拉全原文、补上生僻概念和出处链接，再排成能在手机上读完的中文长文。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "即刻",
+        "歸藏"
+      ]
+    },
+    {
+      "id": "note-baobao-kidsline",
+      "added": "2026-10-11",
+      "title": "ばおばお：保姆补贴申请交给 Bot，人只登录、核对再提交",
+      "url": "https://note.com/baobaonote/n/n40a6eb662362",
+      "blurb": "作者用语音让 Bot 在 Kidsline 下载保姆收据、做成区政府申请表并填进网页，自己只做登录、核对和按下提交。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "Kidsline"
+      ]
+    },
+    {
+      "id": "note-ippo-voice-notion",
+      "added": "2026-10-11",
+      "title": "いっぽ：通勤时对 Bot 说话，记录由它整理进 Notion",
+      "url": "https://note.com/glad_weasel3627/n/n0679b296302c",
+      "blurb": "他通勤时用语音把当天事务丢给 Grok Bot，再由 Bot 整理进 Notion，记日记从打开页面变成走路时的一句交代。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "运营"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "Notion"
+      ]
+    },
+    {
+      "id": "substack-router-front",
+      "added": "2026-10-11",
+      "title": "邮件风暴的第一道筛子：收件箱仍按名字捞人",
+      "url": "https://larsklander.substack.com/p/the-router-in-front",
+      "blurb": "六千多封邮件里，Inbox Manager 主要按合伙人名字捞信，他才在旁边加了一道影子评分，一周只把大约百分之四点五标成要看的邮件。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "Lars Klander",
+        "Inbox Manager"
+      ]
+    },
+    {
+      "id": "x-arcadia-writing-desk",
+      "added": "2026-10-11",
+      "title": "写作者的 Bot 同时盯本地稿、Notion 和手机",
+      "url": "https://x.com/Arcadia_Bao/status/2108966339851497721",
+      "blurb": "他让同一个 Bot 在 Mac 上看写作台、在云端巡 Notion 的日志和项目库，人在外面用手机接着聊，聊完能写回任意一边的文档。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "插件"
+      ],
+      "aliases": [
+        "X",
+        "Notion",
+        "Arcadia"
+      ]
+    },
+    {
+      "id": "x-jason-week-bots",
+      "added": "2026-10-11",
+      "title": "三十四个 Bot 的一周：持续集成变绿才允许合并",
+      "url": "https://x.com/jason_bennitt/status/2108812692760707114",
+      "blurb": "他的幕僚长把合并请求交给只在持续集成变绿时才合并的审查 Bot，同一周还用六条过滤规则处理了一百七十七封邮件，并加上十一条可复用技能。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "X",
+        "Jason Bennitt"
+      ]
+    },
+    {
+      "id": "x-alexcovo-hermes-pit",
+      "added": "2026-10-11",
+      "title": "长活放进云电脑里的 Hermes，周额度留给判断",
+      "url": "https://x.com/alexcovo_eth/status/2108801596670808231",
+      "blurb": "他在 Bot 那台一直开着的云电脑里跑 Hermes、Cloudflare Clef 和 Nous，幕僚长把长研究交给 Hermes，文本先按他写的规则分类，摘要和初稿走有花费上限的便宜模型。",
+      "section": "cases",
+      "tags": [
+        "计费",
+        "电脑",
+        "插件"
+      ],
+      "aliases": [
+        "X",
+        "Hermes",
+        "Clef"
+      ]
+    },
+    {
+      "id": "youtube-jody-six-weeks",
+      "added": "2026-10-11",
+      "title": "六周实跑：周报写成存了 25 份文件，人只收到 7 份",
+      "url": "https://www.youtube.com/watch?v=s3W4xyat5Bs",
+      "blurb": "已经让一小队 Bot 自己交周报的人，可以看计数是怎么错的，以及没人下过的例行任务、一次差点放行的批准，和买之前该先知道的五件事。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "排障",
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Jody Murfit"
+      ]
+    },
+    {
+      "id": "hn-slack-same-name",
+      "added": "2026-10-11",
+      "title": "HN：两个 Slack 频道同名，财务 Bot 把银行信息发进高管群",
+      "url": "https://news.ycombinator.com/item?id=50033517",
+      "blurb": "当事人把财务明细和公司 Slack 交给 Grok Bot 之后，财务岗因为两个频道同名，把银行信息发进了名为 Exec-team 的高管群，而不是和自己代理的私人群。",
+      "section": "cases",
+      "tags": [
+        "安全",
+        "多Bot"
+      ],
+      "aliases": [
+        "Hacker News",
+        "Slack",
+        "XMTP"
+      ]
+    },
+    {
+      "id": "nonebot-plugin-grok-bot",
+      "added": "2026-10-11",
+      "title": "用 NoneBot 把 QQ 会话接到 Grok Bot 的例程",
+      "url": "https://github.com/Yan-Zero/nonebot-plugin-grok-bot",
+      "blurb": "QQ 里的消息按会话送到对应例程的 Webhook，Bot 再经 MCP 把图文和 QQ 表情发回群里。",
+      "section": "skills",
+      "tags": [
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "NoneBot",
+        "QQ"
+      ]
+    },
+    {
+      "id": "alarmo-niuma",
+      "added": "2026-10-11",
+      "title": "把小屏变成 Grok Bot 群聊里的牛马工位",
+      "url": "https://github.com/jamin98/alarmo-niuma",
+      "blurb": "只有早期没升级的 Alarmo 能载入这套画面，小屏把群聊里每只 Bot 画成工位上的牛马，能看出谁在干活、谁在等批准，点一下就能私聊。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Alarmo"
+      ]
+    },
+    {
+      "id": "token-tracking",
+      "added": "2026-10-11",
+      "title": "在 macOS 菜单栏对照 Grok Bot 周额度的匀速线",
+      "url": "https://github.com/mduppes/TokenTracking",
+      "blurb": "菜单栏每十五分钟用独立的无头 Chrome 登录档读取 Cursor 面板里的 Grok Bot 周额度，并按重置倒计时标出照现在的速度会不会提前烧完。",
+      "section": "skills",
+      "tags": [
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "macOS",
+        "周额度"
+      ]
+    },
+    {
+      "id": "eze-wake-on-done",
+      "added": "2026-10-11",
+      "title": "长任务做完就叫醒 Grok Bot，不必轮询",
+      "url": "https://github.com/eze-is/eze-grokbot",
+      "blurb": "交给 Codex 或 Claude Code 的长任务一结束就会叫醒主 Bot 接着做，不必轮询，安装时另建一只中继 Bot，你只批准一张卡片再贴上地址和密钥。",
+      "section": "skills",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "Codex",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "thunderstone-starter",
+      "added": "2026-10-11",
+      "title": "给 Grok Bot 云电脑装一套断线能恢复的开工环境",
+      "url": "https://github.com/Ditto190/thunderstone-starter",
+      "blurb": "引导脚本补上 Bash、tmux 和 Node，不改桌面，也不假设有 systemd，tmux 能扛住终端断开，重启后要靠恢复脚本把会话建回来。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "tmux"
+      ]
+    },
+    {
+      "id": "grokbot-desk",
+      "added": "2026-10-11",
+      "title": "让 Grok Bot 在你自己的屏幕上弹窗等拍板",
+      "url": "https://github.com/realspqrk/grokbot-desk",
+      "blurb": "要拍板时在你正在用的电脑上弹出决定窗口，地址只在本机回环，运行记录、结果和日志超过三十天会删掉。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "note-allay-cognitive",
+      "added": "2026-10-11",
+      "title": "アレイ：按认知负荷比较 Grok Bot 和 dots，该拆专任还是留一个秘书",
+      "url": "https://note.com/allay0224/n/n6672eff64472",
+      "blurb": "这篇不比价格和模型，而把多 Bot 分工和 dots 的单人多任务放在同一把认知负荷的尺子上，看确认和完成报告会不会把人的注意力挤满。",
+      "section": "reviews",
+      "tags": [
+        "多Bot"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "dots"
+      ]
+    },
+    {
+      "id": "substack-lars-own-room",
+      "added": "2026-10-11",
+      "title": "一间自己的房间：同一账号的 Bot 仍共用一台电脑",
+      "url": "https://larsklander.substack.com/p/a-room-of-its-own",
+      "blurb": "同一账号上的 Bot 只隔开人设和工作区、不隔开那台电脑，不愿放上去的密钥他就留在外面，要隔离开得另开一个用户席位。",
+      "section": "reviews",
+      "tags": [
+        "安全",
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "Lars Klander"
+      ]
+    },
+    {
+      "id": "substack-stefan-agents",
+      "added": "2026-10-11",
+      "title": "多出来的那笔钱：Grok Bot 相对 Claude，只在自己登网站时值",
+      "url": "https://stefanloesch.substack.com/p/personal-agents-grokbot-muse-dots",
+      "blurb": "他把领英和 WhatsApp 接到 Grok Bot 上做摘要再寄回邮箱，并觉得相对已经在跑的 Claude，每月二三十美元只在电脑必须自己登录这些网站时才划算。",
+      "section": "reviews",
+      "tags": [
+        "计费",
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "Stefan Loesch"
+      ]
+    },
+    {
+      "id": "forum-email-trigger-inbox",
+      "added": "2026-10-11",
+      "title": "新邮箱能领到，保存邮件触发时地址会被漏掉",
+      "url": "https://forum.cursor.com/t/grok-bot-updateroutine-rejects-email-trigger-even-with-valid-inbox-address/174234",
+      "blurb": "领取 mail.grokbot.com 已经成功，Bot 保存邮件触发例程时把收件地址从触发器里漏掉了，校验因此返回不是有效触发，定时例程去轮询这只收件箱目前还能继续收信。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "运营"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "mail.grokbot.com"
+      ]
+    },
+    {
+      "id": "forum-computer-pause-scripts",
+      "added": "2026-10-11",
+      "title": "云电脑一闲就暂停，常驻脚本被冻住，更新也不会把它们拉起来",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-freezes-reboots-repeatedly-and-kills-24-7-background-scripts/174272",
+      "blurb": "桌面一断开、又没有 Bot 正在用时，云电脑几分钟后会暂停，nohup 循环不算活动，10 月 10 日那次重启是自动更新，文件还在、进程不会，让发布例程检查脚本是否还在并重新拉起，采集按上次成功的时间戳补齐。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-windows-awake-offline",
+      "added": "2026-10-11",
+      "title": "窗口保持最大化，本机仍会被看成没人在用",
+      "url": "https://forum.cursor.com/t/grok-bot-thinks-my-computer-is-offline-or-sleeping-but-it-is-not/174267",
+      "blurb": "Windows 0.69.1 上窗口就算保持最大化，只要它不再是当前窗口，同一台电脑上改去浏览器打开 grok.com 也算，连接仍会暂停，没有可以关掉的开关，点回这个窗口不用发消息就会恢复。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Windows"
+      ]
+    },
+    {
+      "id": "forum-enterprise-member-bots",
+      "added": "2026-10-11",
+      "title": "企业管理员还不能禁止成员自己新建 Bot",
+      "url": "https://forum.cursor.com/t/grok-bot-enterprise-can-admins-prevent-users-from-creating-their-own-bots/174226",
+      "blurb": "有 Grok Bot 权限的成员现在都能自建个人 Bot，也能自己发布 Team Bot，管理员可以按组决定谁能用、把 Team Bot 推给全员或指定组，团队的能力、网络和自动审查策略对成员自建的 Bot 同样生效。",
+      "section": "community",
+      "tags": [
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Team Bot"
+      ]
+    },
+    {
+      "id": "x-rarkins-webhook-cold",
+      "added": "2026-10-11",
+      "title": "外部消息进不了当前对话，每次唤醒都要冷启动",
+      "url": "https://x.com/rarkins/status/2108975130256785856",
+      "blurb": "他的 iMessage 桥一秒就能把字送进来，但 Grok Bot 只能靠 webhook 新开一轮例行，Bot 得重新装上人设和工具再自己去取消息，实际要再等三十到六十秒。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "X",
+        "iMessage",
+        "webhook"
       ]
     }
   ]
