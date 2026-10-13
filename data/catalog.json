@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "sections": [
     {
       "id": "official",
@@ -28109,6 +28109,455 @@
       "aliases": [
         "X",
         "mail.grokbot.com"
+      ]
+    },
+    {
+      "id": "bili-mashang-billing",
+      "added": "2026-10-13",
+      "title": "订阅之后为什么还会收费：资格、关联和额外费用",
+      "url": "https://www.bilibili.com/video/BV1v8pZ67Eu6",
+      "blurb": "已经买了 Cursor 或 SuperGrok 仍可能另外计费，这集按十月十三日的公开规则把登录路径、永久关联前怎么核对、每周用量取高不叠加，以及按需和月限额拆开。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "上手"
+      ],
+      "aliases": [
+        "哔哩哔哩",
+        "码上花生",
+        "SuperGrok"
+      ]
+    },
+    {
+      "id": "bili-maidang-twenty",
+      "added": "2026-10-13",
+      "title": "二十美元档怎么够用：把费额度的执行分流出去",
+      "url": "https://www.bilibili.com/video/BV1LNpo61E8g",
+      "blurb": "二十美元的 Cursor Pro 要撑过平均以上的用量，可以把烧额度的执行交给已经付过费的 Codex 等接口，再让免费模型扛杂活，Grok Bot 只负责派活和验收。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "插件",
+        "多Bot"
+      ],
+      "aliases": [
+        "哔哩哔哩",
+        "麦当",
+        "Codex",
+        "OpenRouter"
+      ]
+    },
+    {
+      "id": "grok-bot-blackbook",
+      "added": "2026-10-13",
+      "title": "从开通到省额度：一本带出处的中文 Grok Bot 实战书",
+      "url": "https://github.com/LJMStark/grok-bot-blackbook",
+      "blurb": "这本简体中文手册从资格和付钱写到云电脑、技能和多 Bot 协作，每条事实都标了出处，并附有可下载的 PDF。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "计费"
+      ],
+      "aliases": [
+        "GitHub",
+        "黑皮书"
+      ]
+    },
+    {
+      "id": "x-eric-four-routines",
+      "added": "2026-10-13",
+      "title": "营销团队可直接粘贴的四条例行任务",
+      "url": "https://x.com/ericosiu/status/2109705695327133745",
+      "blurb": "选题雷达、周一数据周报、竞品缺口和按公开作品找人这四条都写好了钟点和边界，结果只进 Slack 草稿，等人点头才往下走。",
+      "section": "tutorials",
+      "tags": [
+        "运营",
+        "上手"
+      ],
+      "aliases": [
+        "X",
+        "Eric Siu"
+      ]
+    },
+    {
+      "id": "x-ben-inbox-webhook",
+      "added": "2026-10-13",
+      "title": "新邮件用 Apps Script 打 webhook，省掉按小时空查",
+      "url": "https://x.com/benvhodl/status/2109710881307132183",
+      "blurb": "他让四口之家的助理 Bot 写一段 Apps Script，新邮件一进自己的 Google 邮箱就打 webhook，免得按小时空查把周额度烧掉。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "上手"
+      ],
+      "aliases": [
+        "X",
+        "Apps Script",
+        "Google Workspace"
+      ]
+    },
+    {
+      "id": "substack-rubia-assistant",
+      "added": "2026-10-13",
+      "title": "礼拜进日历：技能没验过、名字还带 copy 就先别开例行",
+      "url": "https://rubia.substack.com/p/how-im-using-grok-bot-as-my-actual",
+      "blurb": "她让一只 Bot 只读清真寺时刻表并把每天五次礼拜写进日历，技能没亲手跑通、名字还带着 copy 之前，不要打开例行。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "跑腿"
+      ],
+      "aliases": [
+        "Substack",
+        "Rubia"
+      ]
+    },
+    {
+      "id": "youtube-peter-upgrade",
+      "added": "2026-10-13",
+      "title": "Peter Yang：这轮升级后的十件日常，从 X 舆情到社群客服",
+      "url": "https://www.youtube.com/watch?v=8hhFOmxEbT0",
+      "blurb": "想看这一轮升级后能接哪些日常的人，可以跟着他把 X 舆情、YouTube 选题、家庭和健康邮件简报以及付费社群客服串起来，并听到他自己觉得还差在哪。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Peter Yang"
+      ]
+    },
+    {
+      "id": "note-goroman-null-1",
+      "added": "2026-10-13",
+      "title": "没写一行代码拿下黑客松第一（上）：语音指挥干事和三个人格",
+      "url": "https://note.com/goroman/n/ncc09f4476257",
+      "blurb": "三人全程用语音下指令，幻灯片、前后端和仓库都没有人亲手敲过一行代码，策划会的录音先交给 Bot 整理再改 Google 幻灯片。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "note",
+        "GOROman",
+        "东京黑客松"
+      ]
+    },
+    {
+      "id": "note-goroman-null-2",
+      "added": "2026-10-13",
+      "title": "黑客松第一（下）：审查表由云电脑里的浏览器填完，提交键留给人",
+      "url": "https://note.com/goroman/n/n78142a1b006d",
+      "blurb": "云电脑里的 Chrome 把审查用的 Google 表填完，人只按下提交，一次审查拿到十五分里的十三分，现场屏幕接不上后改用幻灯片讲完 Bot 之间的点单。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "note",
+        "GOROman",
+        "东京黑客松"
+      ]
+    },
+    {
+      "id": "note-a1008u-mermaid",
+      "added": "2026-10-13",
+      "title": "月约六千日元的小队：几个 Bot 在群里把叠图查到版本冲突",
+      "url": "https://note.com/a1008u/n/n8465cdc60e05",
+      "blurb": "调查、动手和核对三个 Bot 在群里来回改 Mermaid，最后对上主题自带的新版本和重复的图形编号，钉住版本后图才不再叠在一起。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "note",
+        "Mermaid"
+      ]
+    },
+    {
+      "id": "x-ivan-ic-recruiter",
+      "added": "2026-10-13",
+      "title": "把猎头往来和职位说明交给 Bot，四岗位筛出一百四十人",
+      "url": "https://x.com/ivanburazin/status/2109692583165235462",
+      "blurb": "他把和猎头的 Slack 往来与职位说明交给 Bot，LinkedIn 上四个在招岗位筛出一百四十人，他联系了其中大约两成并约到通话。",
+      "section": "cases",
+      "tags": [
+        "运营"
+      ],
+      "aliases": [
+        "X",
+        "LinkedIn"
+      ]
+    },
+    {
+      "id": "x-joshua-perm-check",
+      "added": "2026-10-13",
+      "title": "一人公司的周检：Bot 起草劳工认证申请，人过目后自己发",
+      "url": "https://x.com/7SwanSwimming/status/2109439108552577119",
+      "blurb": "他的 Bot 每周从劳工认证广告里按名单挑公司并起草申请，他过目后自己发出，满二十四小时没回音就公开记下并报给监察部门。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "X",
+        "PERM"
+      ]
+    },
+    {
+      "id": "youtube-meter-fingerprint",
+      "added": "2026-10-13",
+      "title": "总功率交给 Bot：不另插插座也能从波形认出家电",
+      "url": "https://www.youtube.com/watch?v=ho_TzrP8_rA",
+      "blurb": "家里只有一块智能电表的人，可以看总功率怎样经 B 路线进 Home Assistant 再交给 Bot，从波形里分开空调、电热水壶和 IH，并试着抓住滤网脏了这类异常。",
+      "section": "cases",
+      "tags": [
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "YouTube",
+        "Home Assistant",
+        "roompine"
+      ]
+    },
+    {
+      "id": "ha-grokbot-usage",
+      "added": "2026-10-13",
+      "title": "把 Grok Bot 周额度收成 Home Assistant 传感器",
+      "url": "https://github.com/jxnix-lab/ha-grokbot-usage",
+      "blurb": "这个 Home Assistant 集成用 Cursor 用户密钥换成只留在内存里的短期令牌，把周额度百分比做成传感器，粘贴内容若像会话 cookie 会在发出请求前被拒绝。",
+      "section": "skills",
+      "tags": [
+        "计费",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "Home Assistant"
+      ]
+    },
+    {
+      "id": "grok-bot-dashboard",
+      "added": "2026-10-13",
+      "title": "用一页面板处理各只 Grok Bot 等你拍板的事",
+      "url": "https://github.com/SuperTost100/Grok-Bot-Dashboard",
+      "blurb": "一只叫 Dashboard 的 Bot 把待回答、待审批和日程收成卡片，页面只对你的 Tailscale 账号开放，点下去会先等五秒才经 Webhook 交回发卡片的那只 Bot。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Tailscale",
+        "Dashboard"
+      ]
+    },
+    {
+      "id": "jameson-hermes-bridge",
+      "added": "2026-10-13",
+      "title": "让 Grok Bot 和自建 Hermes 经 Tailscale 互相派活",
+      "url": "https://github.com/jamesonedge/grokbot-hermes-bridge",
+      "blurb": "云电脑用专用钥匙经 Tailscale 跑 Hermes 的一次性命令，Hermes 再用带密钥的 Webhook 把 Grok Bot 叫醒，作者说这条路日常在用，但还没有在一台干净的新环境里从头验收过。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "Hermes",
+        "Tailscale"
+      ]
+    },
+    {
+      "id": "ael-line-helper",
+      "added": "2026-10-13",
+      "title": "用一次性配对码把 Grok Bot 接到 LINE",
+      "url": "https://github.com/austin17022/ael-line-helper",
+      "blurb": "这只本机小帮手用十分钟有效的一次性配对码把 Grok Bot 接到 LINE，自动回复默认关着并停在模拟模式，代理自己不能把这道闸关掉。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "LINE"
+      ]
+    },
+    {
+      "id": "virtual-bot-connect",
+      "added": "2026-10-13",
+      "title": "把 Grok Bot 当成管家，用命令行调度家里的 Multica",
+      "url": "https://github.com/kkunkunya/virtual-bot-connect",
+      "blurb": "作者把手机上的 Grok Bot 当成管家，经命令行把任务派到 Mac 上的 Multica，这截已经实机跑通，Webhook 叫醒仍在验收。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Multica",
+        "Tailscale"
+      ]
+    },
+    {
+      "id": "bravo-agent",
+      "added": "2026-10-13",
+      "title": "在自己的 Windows 上跑的开源常驻代理 Bravo",
+      "url": "https://github.com/Jitendra2205/bravo",
+      "blurb": "这只开源代理在你自己的 Windows 上用真实的 Chrome 窗口上网并跑定时任务，发信和执行命令之前都会先停下来等你点头。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Bravo",
+        "Windows"
+      ]
+    },
+    {
+      "id": "dodaios",
+      "added": "2026-10-13",
+      "title": "Dodaios：在自己电脑上跑的开源常驻队友，原名 Personal Jarvis",
+      "url": "https://github.com/Dodaios/Dodaios",
+      "blurb": "原名 Personal Jarvis，Dodaios 在你自己的电脑上跑代理、编程命令行和浏览器，Windows、macOS 和 Linux 都能装，有 Claude 或 ChatGPT 订阅也可以不另配钥匙。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "Personal Jarvis",
+        "Dodaios"
+      ]
+    },
+    {
+      "id": "nightd-bot-signature",
+      "added": "2026-10-13",
+      "title": "冒充 Grok Bot 的网页签名后，Cloudflare 默认拦截会放行",
+      "url": "https://nightd.dev/blog/impersonating-grok-bot-for-fun-and-no-profit/",
+      "blurb": "作者向 xAI 披露后仍公开写明：云电脑上的网页机器人签名可以由使用者领取，同一可疑地址带上冒充签名就能穿过 Cloudflare 的默认拦截页。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "电脑"
+      ],
+      "aliases": [
+        "Cloudflare",
+        "Web Bot Auth",
+        "nightd"
+      ]
+    },
+    {
+      "id": "forum-team-trial-loop",
+      "added": "2026-10-13",
+      "title": "0.68.1 一直生成失败，有时只是团队试用额度到顶",
+      "url": "https://forum.cursor.com/t/grok-bot-0-68-1-bot-failed-to-respond-loop-persistent-across-new-bots/174437",
+      "blurb": "重置电脑、新建 Bot 仍然立刻失败时，官方核对是团队试用额度用尽，界面只给笼统的生成失败，需要管理员延长或转正试用，Cursor 编辑器仍可使用。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "试用"
+      ]
+    },
+    {
+      "id": "forum-screen-wont-start",
+      "added": "2026-10-13",
+      "title": "报屏幕全被占用，往往是这只 Bot 的屏幕没起来",
+      "url": "https://forum.cursor.com/t/grok-bot-desktop-screens-stay-in-use-when-nothing-is-running-which-stalls-overnight-browser-work/174448",
+      "blurb": "官方核对后说，报屏幕全被占用时往往是这只 Bot 自己的屏幕起不来，同机其他 Bot 仍能用，日志里一百二十秒是密码自动填充等到超时，不是原因，他们已在后端改过这台电脑让再试。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-slack-handoff-owner",
+      "added": "2026-10-13",
+      "title": "Slack 里同事让协调 Bot 转派，只能派给他自己的 Bot",
+      "url": "https://forum.cursor.com/t/team-bot-cant-hand-work-to-other-team-bots-when-a-teammate-not-the-owner-asks-in-slack-but-the-same-handoff-works-in-the-grok-bot-app/174395",
+      "blurb": "团队在 Slack 里让协调 Bot 转派时，官方说明提问人只能把活转给自己名下的 Bot，侧边栏里添加的团队 Bot 会被拒，协调转派得回到 Grok Bot 应用里做。",
+      "section": "community",
+      "tags": [
+        "多Bot",
+        "运营",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Slack",
+        "Team Bot"
+      ]
+    },
+    {
+      "id": "forum-pop-os-glibcxx",
+      "added": "2026-10-13",
+      "title": "Ubuntu 22.04 与 Pop!_OS 上，0.68.1 本地执行起不来",
+      "url": "https://forum.cursor.com/t/grok-bot-0-68-1-local-execution-fails-on-pop-os-22-04/174393",
+      "blurb": "在 Pop!_OS 或 Ubuntu 22.04 上，0.68.1 的本地执行会因缺少 GLIBCXX_3.4.31 起不来，官方确认聊天和云电脑不受影响，更新应用目前仍会失败，临时可改到 Ubuntu 24.04 或更新的系统、用同一账号跑本地命令。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Pop!_OS",
+        "GLIBCXX",
+        "Ubuntu"
+      ]
+    },
+    {
+      "id": "note-hirameki-one-pool",
+      "added": "2026-10-13",
+      "title": "两份订阅不会把用量加在一起，绑上 SuperGrok 也摘不掉",
+      "url": "https://note.com/hiramekisugiru/n/nad8218cd7400",
+      "blurb": "Cursor Pro 和同档的 SuperGrok 不会把用量加在一起，两份账单都还在，绑定之后解不开，按量月上限也停不住已经在跑的活，没人看着时的批准大约十分钟就过期。",
+      "section": "community",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "note",
+        "SuperGrok"
+      ]
+    },
+    {
+      "id": "grokbot-background-helper",
+      "added": "2026-10-13",
+      "title": "关掉窗口后仍让 Windows 上的 Grok Bot 留在后台",
+      "url": "https://github.com/stantheman0128/grokbot-background-helper",
+      "blurb": "Windows 上点关闭会让 Grok Bot 桌面端退出，这个托盘助手把关闭改成隐藏窗口，进程意外消失大约两秒后会再拉起来，你选退出则不会。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Windows"
       ]
     }
   ]
