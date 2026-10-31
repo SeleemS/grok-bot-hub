@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "sections": [
     {
       "id": "official",
@@ -37848,6 +37848,301 @@
       "aliases": [
         "Substack",
         "Gmail"
+      ]
+    },
+    {
+      "id": "forum-icloud-mail",
+      "added": "2026-11-01",
+      "title": "还没有 iCloud 邮箱连接器：开着的 Mac 邮件能读",
+      "url": "https://forum.cursor.com/t/grok-bot-please-add-an-icloud-mail-connector/176858",
+      "blurb": "员工确认现在没有和 Gmail、Outlook 同级的 iCloud 邮箱连接器，Mac「邮件」里登着 iCloud 时可以在这台开着并连着的 Mac 上打开 Grok Bot 并允许访问来搜索和阅读，也可以把社区的 icloud-mail-mcp 加成自定义连接器，用 App 专用密码登录，交密码前要自己看过。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "iCloud"
+      ]
+    },
+    {
+      "id": "forum-obsidian-map",
+      "added": "2026-11-01",
+      "title": "给笔记库做一张短目录，Bot 不用把整库读完",
+      "url": "https://forum.cursor.com/t/a-library-map-for-obsidian-vaults-cut-how-much-my-agents-read-by-about-36x/175682",
+      "blurb": "大约 1550 篇笔记做成一张约 4KB 的总目录，再给每层文件夹一页货架，代理先读目录再只打开需要的那一篇，整库通读换成读完全部目录大约只剩三十六分之一；员工补充说走连接器的 Bot 没有本地搜索，GitHub 连接器读文件还有大约 20KB 的截断，页头记下生成时的版本才能和当前版本对照。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "上手"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Obsidian"
+      ]
+    },
+    {
+      "id": "substack-nextcloud-deck",
+      "added": "2026-11-01",
+      "title": "Nextcloud 里点名或派卡才开工，做完再交下一栏",
+      "url": "https://vectorpost.substack.com/p/using-grok-bot-and-nextcloud-to-get",
+      "blurb": "每只 Bot 在 Nextcloud 有自己的账号和一条 webhook 例程，聊天被点名或看板把卡片派到自己且阶段正确才动手，做完推进到下一栏并改派下一位，评论本身不会把 Bot 叫醒。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "Substack",
+        "Nextcloud",
+        "Deck"
+      ]
+    },
+    {
+      "id": "youtube-own-number",
+      "added": "2026-11-01",
+      "title": "给 Bot 一支自己的电话：超预算就挂断，通过的单才订上",
+      "url": "https://www.youtube.com/watch?v=1l9f8ajYcDQ",
+      "blurb": "他用 Twilio 号码接上语音代理，通话结束经 webhook 例行把结果送回 Grok Bot：披萨报价 60 美元、超过事先写明的 30 美元上限就回绝并短信汇报，理发店报 45 美元并订上 10 月 27 日下午 2 点半，打进这支号码还要口令，用量记在 Pages 上。",
+      "section": "tutorials",
+      "tags": [
+        "跑腿",
+        "安全",
+        "计费"
+      ],
+      "aliases": [
+        "YouTube",
+        "Twilio"
+      ]
+    },
+    {
+      "id": "devto-nine-then-one",
+      "added": "2026-11-01",
+      "title": "九只 Bot 用了一周又拆回一只：规则留下，编制不留",
+      "url": "https://dev.to/mikepred/how-it-started-nine-bots-in-a-week-then-back-to-one-18e1",
+      "blurb": "他从设计岗一夜加到九只专员，十四条草稿停在未合并的拉取请求上；图书管理员和辩论搭档把 Obsidian 笔记改到他看不懂之后，10 月 30 日整队删除，只留一只叫 HQ 的工作台，规则仍留着。",
+      "section": "cases",
+      "tags": [
+        "多Bot"
+      ],
+      "aliases": [
+        "DEV",
+        "Obsidian"
+      ]
+    },
+    {
+      "id": "youtube-dex-domains",
+      "added": "2026-11-01",
+      "title": "域名自己卖出 3000 美元，Bot 两个月外联仍零回复",
+      "url": "https://www.youtube.com/watch?v=fzrlP9MUlKE",
+      "blurb": "harborpointhomes.com 由他本人还价到 3000 美元成交、扣佣金后到账 2250 美元，域名 Bot Dex 两个月里看了约 6000 个名字、标出约 60 个 A 档，经 Spaceship 和 Afternic 同步上架，外联信发了一百多封，回复仍是零。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "运营"
+      ],
+      "aliases": [
+        "YouTube",
+        "Dex"
+      ]
+    },
+    {
+      "id": "substack-podcast-461",
+      "added": "2026-11-01",
+      "title": "播客流程先被 Bot 问出来：第 461 期抓住口播里的缺链",
+      "url": "https://jamingo.substack.com/p/im-a-scatterbrain-so-my-bot-interviewed",
+      "blurb": "主持人让制片 Bot 逐问整理出 11 段制作手册，再把调研、串词、节目笔记、预告和切片分给不同岗位，口令一出就从逐字稿里抓住答应补的链接，第 461 期对照 Claude 时只有这套问出了缺链，发布仍由人按按钮。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "substack-guest-angle",
+      "added": "2026-11-01",
+      "title": "客座稿先卖角度：出版方点头后，两只 Bot 才起草和打包",
+      "url": "https://abhilashrout.substack.com/p/pitch-guest-posts-angle-first",
+      "blurb": "B2B 团队把客座投稿改成先发标题、论点、字数和署名，对方明确答应后外联 Bot 才按对方的字数和能否提及产品建档，写作 Bot 只在被点名时起草，人看过包装才寄出。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "销售",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "note-x-unfollow",
+      "added": "2026-11-01",
+      "title": "整理过多的 X 关注：自己勾选留下谁，它再去取关",
+      "url": "https://note.com/s_s_p_y/n/n08be5ca73131",
+      "blurb": "先分出互关、单向和长期不更新，再用开关勾出要留下的账号，确认名单之后才用拉黑再解除的办法取关，避免误伤想留的人。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "电脑"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "X"
+      ]
+    },
+    {
+      "id": "note-x-ban-wave",
+      "added": "2026-11-01",
+      "title": "追查 X 封号潮：六页报告之后，原因仍说不清",
+      "url": "https://note.com/lofty_myrtle6341/n/ned806a8772c0",
+      "blurb": "只丢一句把提到封号潮的 X 和站外都查一遍，Bot 交回六页报告，创作圈的几种传闻对不上，原因仍无法确定。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "电脑"
+      ],
+      "aliases": [
+        "note",
+        "日文"
+      ]
+    },
+    {
+      "id": "zenn-home-roles",
+      "added": "2026-11-01",
+      "title": "五个角色接手吃饭、家电和周末预算，话只跟窗口 Bot 说",
+      "url": "https://zenn.dev/techbiz/articles/grok-bot-mild-dystopia-life",
+      "blurb": "窗口 Bot 听一句肚子饿了就让健康和家计去查外卖并等确认再下单，家电 Bot 用 Nature Remo 按不适指数每三十分钟调空调，家计 Bot 每周一早上交外出预算后再写进日历。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "跑腿",
+        "电脑"
+      ],
+      "aliases": [
+        "Zenn",
+        "日文",
+        "Nature Remo"
+      ]
+    },
+    {
+      "id": "call-grokbot",
+      "added": "2026-11-01",
+      "title": "从 Codex 和 Claude Code 呼叫已经在跑的 Grok Bot",
+      "url": "https://github.com/ZensHQ/call-grokbot",
+      "blurb": "本机 MCP 走官方命令行的浏览器登录，向指定 Bot 派一个自包含任务并读回增量回复，Bot 原有的对话、记忆和已接工具都留在原地。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "MCP",
+        "Codex",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "grokbot-t3-bridge",
+      "added": "2026-11-01",
+      "title": "编码回合一结束，Stop 钩子就叫醒对应的 Grok Bot",
+      "url": "https://github.com/DoubleDipCode/grokbot-t3-bridge",
+      "blurb": "T3 Code 的 Stop 钩子只在工作区带有 Bot 标记时向对应 webhook 送一条短消息，Bot 醒来后只读最新几条，再决定交拉取请求、回答追问或找你。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "T3 Code"
+      ]
+    },
+    {
+      "id": "grokbot-chat-export",
+      "added": "2026-11-01",
+      "title": "不花模型额度，导出 Windows 桌面版两侧聊天",
+      "url": "https://github.com/alexeygrigorev/grokbot-chat-export",
+      "blurb": "它只读本机对话副本，按消息编号追加成 JSONL，窗口滚过去的缺口单独记下，钥匙和其他 blob 不会被打开。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "JSONL"
+      ]
+    },
+    {
+      "id": "grokbot-botmarket",
+      "added": "2026-11-01",
+      "title": "自建 Bot 市场：链接只打开应用里的导入确认",
+      "url": "https://github.com/rannes/grokbot-botmarket",
+      "blurb": "一个 SQLite 文件就能撑起自己的目录，模板经 grokbot 深链进入应用内核对，配方则让新 Bot 拉取 JSON，再写入记忆、技能和默认暂停的例行任务。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "BotMarket"
+      ]
+    },
+    {
+      "id": "grokbot-growth",
+      "added": "2026-11-01",
+      "title": "六个问题生成一套出海增长 Bot 团队的开工文件",
+      "url": "https://github.com/BeatAPI/grokbot-growth",
+      "blurb": "技能先问清产品、市场和渠道，再写出总管与各岗位说明、共用规则、审核表，以及第一周只开一条线的清单，发布仍等你批准。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "BeatAPI"
+      ]
+    },
+    {
+      "id": "grok-bot-relay",
+      "added": "2026-11-01",
+      "title": "七个 Grok Bot 接力：上一个写完 DONE 才叫醒下一个",
+      "url": "https://github.com/Gipppp121/grok-bot-relay",
+      "blurb": "只留周一早上的侦察时钟，后续 Bot 见到上一个写下的 DONE 才开工，负责花钱的那个把上限放在 40 美元，而且每笔都要你点头。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "计费",
+        "运营"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "forum-voice-gear",
+      "added": "2026-11-01",
+      "title": "侧栏改版后改嗓音，要到通话齿轮或资料里的语音通话",
+      "url": "https://forum.cursor.com/t/grok-bot-agent-voice-option-missing-bug-or-being-worked-on/176848",
+      "blurb": "员工确认侧栏改版时把嗓音从 Bot 侧栏拿掉了，新的语音聊天会逐步出现在点开这只 Bot 名字后的活动页；在那之前，桌面先跟它通话再点通话控制里的齿轮挑选并试听，iPhone 和安卓则到资料页编辑里的语音通话，这是应用设置，Bot 自己看不见也改不了。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "上手"
+      ],
+      "aliases": [
+        "Cursor Forum"
       ]
     }
   ]
