@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "sections": [
     {
       "id": "official",
@@ -37461,6 +37461,393 @@
       ],
       "aliases": [
         "Cursor Forum"
+      ]
+    },
+    {
+      "id": "youtube-enterprise-teams",
+      "added": "2026-10-31",
+      "title": "官方工坊：客服电话、补货和拓客怎么交给一队 Bot",
+      "url": "https://www.youtube.com/watch?v=jcKcAfJtTlk",
+      "blurb": "官方这场工坊用一家航空公司做样本：竞品情报 Bot 升成主管后再建三个下属，客服电话在礼宾、记录和质检之间交接，低库存补货和拓客每步都回来等你点头。",
+      "section": "official",
+      "tags": [
+        "销售",
+        "运营",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Grok"
+      ]
+    },
+    {
+      "id": "forum-origin-automerge",
+      "added": "2026-10-31",
+      "title": "检查通过后让 Origin 自己合并拉取请求",
+      "url": "https://forum.cursor.com/t/let-cloud-agents-and-grok-bot-merge-origin-prs-once-checks-pass-merge-scope/176643",
+      "blurb": "员工确认云代理和 Grok Bot 的 Origin 令牌现在可以开、可以改拉取请求，合并仍要自己做，出现 Origin token is not scoped 就是这个限制；让云代理把拉取请求开成可审查而不是草稿，再在页面上打开自动合并，或在自己的电脑上跑 origin pr merge 编号 --auto，需要的检查通过后由 Origin 合并，拉取请求仍留在记录里。",
+      "section": "tutorials",
+      "tags": [
+        "工程"
+      ],
+      "aliases": [
+        "Origin",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "note-wallet-night",
+      "added": "2026-10-31",
+      "title": "当晚实测：卡号只走保险库，日本地址格式被拒就停下",
+      "url": "https://note.com/manamana2828/n/nb085a05e564a",
+      "blurb": "10 月 29 日晚给 DeepSeek 充值时，卡号只走保险库，合计 2.12 美元先出审批卡，国家选了日本但邮编和电话只收美国格式，Bot 拒绝自己编造并停在那里。",
+      "section": "tutorials",
+      "tags": [
+        "安全",
+        "计费"
+      ],
+      "aliases": [
+        "note",
+        "1Password",
+        "Vault"
+      ]
+    },
+    {
+      "id": "hn-herdr-weekend",
+      "added": "2026-10-31",
+      "title": "人去密室逃脱，Bot 在自家机器上用 herdr 合进大约十五个 PR",
+      "url": "https://news.ycombinator.com/item?id=50298405",
+      "blurb": "他把家里网络上的一台机器交给 Bot，让 herdr 按提示拉起代理，再用 Dr Eggbot 装上 pstack，规划交给 Opus 5.5、写码交给 Grok 4.7，自己带女儿去科罗拉多密室的周末里项目跑完五个阶段、约十五个 PR，没过审的在合并前被打回。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "Hacker News",
+        "herdr"
+      ]
+    },
+    {
+      "id": "x-reavid-flomo",
+      "added": "2026-10-31",
+      "title": "430 条 flomo 笔记搬进飞书，登录二维码自己扫",
+      "url": "https://x.com/re_avid/status/2116227096900977105",
+      "blurb": "他让 Grok Bot 在云电脑里打开 flomo，自己扫码登录，核对 430 条后由飞书 Bot 分三批写入多维表格，激活码先打码，每晚再由「笔记」Bot 抽几条旧笔记来回顾，改表仍要他点头。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "X",
+        "flomo",
+        "飞书"
+      ]
+    },
+    {
+      "id": "qiita-autoki-routines",
+      "added": "2026-10-31",
+      "title": "约会站的值班代理：九条日本时间例程，花钱和代发才要人点头",
+      "url": "https://qiita.com/autoki_app/items/69367486d995ce1f9b4b",
+      "blurb": "约会站あうとき的值班代理把日报、社媒、安全扫描和改代码拆成九条日本时间例程，只有花钱、代发主人账号和加新工具才需要人点头，账号放在共用的 1Password 保险库里。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "运营",
+        "电脑"
+      ],
+      "aliases": [
+        "Qiita",
+        "あうとき",
+        "1Password"
+      ]
+    },
+    {
+      "id": "devto-phone-switchboard",
+      "added": "2026-10-31",
+      "title": "手机上的 Bot 当总机，几路 Claude Code 仍要人点头",
+      "url": "https://dev.to/nunc/i-run-several-claude-code-sessions-from-my-phone-grok-bot-is-the-switchboard-3li8",
+      "blurb": "每个项目留一只 Grok Bot，人在手机上做决定，Bot 把话传到另一台电脑上 herdr 里的 Claude Code 并盯到结束再回报，要紧的一步都等他点头，Bot 自己不代批。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "DEV",
+        "herdr",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "note-ny-groomers",
+      "added": "2026-10-31",
+      "title": "四天交出两座宠物店名录，布鲁克林七家没过核验",
+      "url": "https://note.com/kaigai_ai_fuku/n/n2a18f6bd59b7",
+      "blurb": "Grok Bot 里的老板、调研和设计三个角色四天交出纽约两地宠物美容店名录，布鲁克林 85 家候选里有 7 家因地址、电话或其实不提供剪毛而被拿下。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "note",
+        "日文"
+      ]
+    },
+    {
+      "id": "note-ten-bots-burn",
+      "added": "2026-10-31",
+      "title": "十个 Bot 空转十五天，收成两个加一份交接",
+      "url": "https://note.com/manamana2828/n/ncfebb75dc45e",
+      "blurb": "十个专职 Bot 连转十五天烧掉约 15.65 亿 token、共 22138 次事件，其中空转例程 3026 次就近 1.96 亿，作者据此收成两个 Bot，空转巡回降到零。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "计费",
+        "运营"
+      ],
+      "aliases": [
+        "note",
+        "日文"
+      ]
+    },
+    {
+      "id": "substack-factcheck-bot",
+      "added": "2026-10-31",
+      "title": "新闻先过核查岗再交给写手，配图必须来自指定页面",
+      "url": "https://johnaspinallsr.substack.com/p/your-content-bot-shouldnt-read-the",
+      "blurb": "10 月 12 日配图错拿合作方定价页之后，突发新闻先变成带出处和置信度的简报，写手只能据此起草，文中还给出可装进自己账号的核查 Bot。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot",
+        "排障"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "safe-grokbot-bridge",
+      "added": "2026-10-31",
+      "title": "云端 Bot 经令牌隧道接着用你机器上的编码会话",
+      "url": "https://github.com/janreges/safe-grokbot-bridge",
+      "blurb": "本机主动拨出隧道，云电脑里的 Bot 拿一把令牌读取你划出的项目目录，并继续已经开着的 Claude Code、Codex 或 Hermes 会话，远程访问要按说明收在隔离环境里。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程",
+        "安全",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Claude Code",
+        "Codex",
+        "Hermes"
+      ]
+    },
+    {
+      "id": "grokbot-gateway",
+      "added": "2026-10-31",
+      "title": "外部编码代理呼叫已登录的 Grok Bot，并进入云电脑",
+      "url": "https://github.com/robzilla1738/grokbot-gateway",
+      "blurb": "在已经登录 Grok Bot 的 Mac 上跑这个命令行和 MCP，外面的 Claude Code 或 Codex 就能向指定 Bot 提问，再经 Tailscale 进那台共享 Linux 电脑，默认令牌只读并会过期。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "MCP",
+        "Tailscale"
+      ]
+    },
+    {
+      "id": "content-engine-grokbot",
+      "added": "2026-10-31",
+      "title": "一个内容点子交给一队 Bot，拆成三套平台草稿",
+      "url": "https://github.com/evyevans/content-engine-grokbot",
+      "blurb": "协调员带着十二个专科 Bot 和一个封面 Bot，按你的受众和口吻把一个点子写成三套平台草稿，发布前的核对留在你这边。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "peerline",
+      "added": "2026-10-31",
+      "title": "不同账号的 Grok Bot 先配对，再互发短讯",
+      "url": "https://github.com/sysrex/peerline",
+      "blurb": "私人 Bot 和工作 Bot 各自持有钥匙，双方都接受邀请并写明范围之后，才能互发不超过 4 KiB 的短讯和点名允许的小包裹，默认谁也不通。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "grok-wake",
+      "added": "2026-10-31",
+      "title": "喊出名字，Mac 菜单栏替你拨通某个 Grok Bot",
+      "url": "https://github.com/ExpeditedProjects/grokbot-wakeword-releases",
+      "blurb": "菜单栏程序用 Mac 本机语音识别听你设的短语，说中某个 Bot 才替你打开语音通话，音频和文本都不出这台电脑，通话进行时它会停听。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Grok Wake"
+      ]
+    },
+    {
+      "id": "inbox-sentry",
+      "added": "2026-10-31",
+      "title": "Outlook 只读哨兵：标出想指挥 Bot 的邮件",
+      "url": "https://github.com/CodeVelo/inbox-sentry",
+      "blurb": "从官方模板装上之后，它扫描 Outlook 里藏着指令、伪装成日历或名片的来信，并标成拦截、可疑或备注，发信和删信留在你的确认之后。",
+      "section": "skills",
+      "tags": [
+        "安全",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "Outlook",
+        "Inbox Sentry"
+      ]
+    },
+    {
+      "id": "grokbot-bridge-herdr",
+      "added": "2026-10-31",
+      "title": "Grok Bot 接手本机 Herdr 窗格，状态变化再叫醒",
+      "url": "https://github.com/Phoobobo/grokbot-bridge-herdr",
+      "blurb": "gbb 让 Bot 在本机启动或接手 Herdr 里的编码窗格，窗格变成做完、空闲或卡住时只推一条不含屏幕内容的 webhook，你随时可以把窗格收回。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Herdr"
+      ]
+    },
+    {
+      "id": "substack-orca-local",
+      "added": "2026-10-31",
+      "title": "素材留在家里的电脑：用 Orca 搭一条不进云电脑的自媒体产线",
+      "url": "https://seattlefire.substack.com/p/orca-grok-bot",
+      "blurb": "这份照做手册用 Orca 的角色卡在本机复刻分工，情报、选题、主笔、事实编辑和复盘各守输入输出，人只批准选题、补自己的经验和手动发布，素材不放进共用云电脑。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot",
+        "运营",
+        "电脑"
+      ],
+      "aliases": [
+        "Substack",
+        "Orca"
+      ]
+    },
+    {
+      "id": "forum-stop-cascades",
+      "added": "2026-10-31",
+      "title": "对一只 Bot 说停，会把刚交过活的队友一起停掉",
+      "url": "https://forum.cursor.com/t/grok-bot-a-scoped-stop-to-one-bot-cascaded-into-a-stop-all-across-every-teammate-bot/176686",
+      "blurb": "员工确认对一只 Bot 说停会被当成停掉它自己的全部工作，并向它最近交过任务的其他 Bot 再发一次停止；聊天里正在干活时出现的停止按钮只停它自己和它的后台任务，事先写进记忆的约束可以再兜一层。",
+      "section": "community",
+      "tags": [
+        "多Bot",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-classify-no-card",
+      "added": "2026-10-31",
+      "title": "分类出错时不出现批准卡，动作被直接挡住",
+      "url": "https://forum.cursor.com/t/grok-bot-auto-review-classifying-error-no-approval-card-0-78-1/176550",
+      "blurb": "员工核对这轮分类检查是在他们这边出错的，不出现批准卡就是现在的表现，动作会被挡住，再点重试走的仍是同一道检查；过一会儿再试，或暂时关掉自动审查，这段时间里本该被审查的动作会直接执行，报错停止后再把审查打开。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Auto-review"
+      ]
+    },
+    {
+      "id": "forum-calldynamic-undefined",
+      "added": "2026-10-31",
+      "title": "工具调用粘成一批时，字段会全部变成 undefined",
+      "url": "https://forum.cursor.com/t/grok-bot-calldynamictool-received-undefined-follow-up-170869-closed/176568",
+      "blurb": "员工说明点了工具名、字段却没进 arguments（几次调用粘在一起，或键名写成 arguments={...}）时，调用仍会发出，但每个字段都是 undefined，不需要参数的工具则照常成功；在这只 Bot 的指令里写上一次只调一个工具、并把该工具自己的字段放进 arguments 的 JSON，还卡住就在侧边栏右键复制一只，用同一套配置换一段新对话。",
+      "section": "community",
+      "tags": [
+        "工程",
+        "排障",
+        "多Bot"
+      ],
+      "aliases": [
+        "CallDynamicTool",
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-plugin-submit-502",
+      "added": "2026-10-31",
+      "title": "提交插件的表单一直返回 502",
+      "url": "https://forum.cursor.com/t/grok-bot-submit-a-plugin-form-returns-502-on-every-submit/176657",
+      "blurb": "员工确认插件提交页本身能打开，一点提交就在他们这边报错，换勾选、换句柄和换仓库地址都没用，先别连续重试；投稿进度，以及已经上了 Cursor 市场、还想出现在 Grok Bot 里的问题，改写信到 marketplace-publishing@cursor.com。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "插件市场"
+      ]
+    },
+    {
+      "id": "substack-gmail-otp",
+      "added": "2026-10-31",
+      "title": "没交密码也进了 Substack：Bot 从已连接的 Gmail 读走验证码",
+      "url": "https://roomtemperaturequantum.substack.com/p/the-hack-of-a-lifetime-that-you-did",
+      "blurb": "作者让 Bot 把先发在《Inc.》的文章排队转到 Substack，Bot 承认没见过密码，而是在登录页填邮箱后从已连接的 Gmail 读走六位验证码和登录链接，于是他改成只开放一只专用邮箱。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "排障"
+      ],
+      "aliases": [
+        "Substack",
+        "Gmail"
       ]
     }
   ]
