@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "sections": [
     {
       "id": "official",
@@ -38140,6 +38140,336 @@
       "tags": [
         "排障",
         "上手"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "note-gb-notify",
+      "added": "2026-11-02",
+      "title": "手机上的 Grok Bot 不再绕 Reason，直接把活交给家里的 Mac",
+      "url": "https://note.com/kokone_ailab/n/n34b0b71d4a95",
+      "blurb": "手机上的 Bot 把活直接交给家里 Mac 的本地受付，受付只回已收下，做完再按同一个作业号叫醒，报告文曾把作业号改掉，Claude Code 也因启动时去读配置而在开工前停住，隔天下午两边才对上。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "排障"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "gb-notify",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "substack-shopify-loyalty",
+      "added": "2026-11-02",
+      "title": "用真实 Shopify 订单定会员档，先不许报出客户姓名",
+      "url": "https://digitaljoey.substack.com/p/how-to-analyze-your-real-shopify",
+      "blurb": "已经连上演示店的 Bot 用真实订单定出从 0 到 499 美元起的三档、每美元积分和 100 分换 5 美元，作者先写明不得报出客户姓名，随后不点名店铺去问全年营收，回复也没有说出店名，按大约 160 美元的客单价，这个兑换大约每两单就让一次利。",
+      "section": "tutorials",
+      "tags": [
+        "运营",
+        "销售",
+        "安全"
+      ],
+      "aliases": [
+        "Substack",
+        "Shopify"
+      ]
+    },
+    {
+      "id": "hashnode-skill-trigger",
+      "added": "2026-11-02",
+      "title": "技能的 description 写成「什么时候用」，再配三份能粘贴的成品",
+      "url": "https://selfhealing.hashnode.dev/how-to-write-reusable-skills-for-your-ai-assistant-skill-md-template-3-real-examples",
+      "blurb": "作者按 Grok Bot 的保存方式拆开会前简报、决策备忘和深度调研三份技能，把 description 写成以 Use when 开头的触发句，并写明整段粘贴后说一句存成技能，再用例行任务去调用。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "插件"
+      ],
+      "aliases": [
+        "Hashnode",
+        "SKILL.md"
+      ]
+    },
+    {
+      "id": "hashnode-job-shortlist",
+      "added": "2026-11-02",
+      "title": "求职 Bot 只做短名单和改简历，投递停在你点头之前",
+      "url": "https://selfhealing.hashnode.dev/set-up-a-job-search-bot-that-shortlists-roles-every-morning-and-never-invents-experience",
+      "blurb": "单独建一只求职 Bot，工作日 8:17 按技能打开近三天的职位页并打分，账本是云电脑上的一份 CSV，改简历时只能重排真实经历，投递和跟进都留给你自己点。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "跑腿"
+      ],
+      "aliases": [
+        "Hashnode",
+        "求职"
+      ]
+    },
+    {
+      "id": "devto-first-assignment",
+      "added": "2026-11-02",
+      "title": "导入模板之后，先交一份有终点的任务书",
+      "url": "https://dev.to/bobbyhalljr/your-grok-bot-template-needs-a-first-assignment-13l5",
+      "blurb": "模板只带来做法，他还是用六个栏位写清要打开的产出、算数的来源、范围、证据、停手点和来源缺失怎么办，再用发布简报、定点观察和缺陷复现包把例行任务压到能核对的结果上。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "工程"
+      ],
+      "aliases": [
+        "DEV",
+        "模板"
+      ]
+    },
+    {
+      "id": "note-bookmark-draft",
+      "added": "2026-11-02",
+      "title": "两天把周额度烧到 91% 之后，三只专职 Bot 三分钟交出一篇草稿",
+      "url": "https://note.com/tetumemo/n/n6db26cd6f207",
+      "blurb": "连休两天一个万能 Bot 把和 Grok、图像、Cursor 共用的额度用到 91%，Eggbot 拆出选题、通讯和技能三岗，17 时 56 分交办，18 时就交出大约 1825 字的样稿。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "计费",
+        "运营"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "Eggbot"
+      ]
+    },
+    {
+      "id": "note-logix-cs",
+      "added": "2026-11-02",
+      "title": "物流 SaaS 的客服把收件箱交给近二十个 Bot，发出去之前必须本人说发",
+      "url": "https://note.com/trisaveurs/n/na9c621f72ab0",
+      "blurb": "物流 SaaS 的收件箱在人打开之前就按客户分拣并写好回复，对外仍要本人说「发」，社内一部分提问已经由咨询窗口直接回答，公开时这套近二十人的编制才跑了大约两周。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "Logix"
+      ]
+    },
+    {
+      "id": "note-hashtag-scope",
+      "added": "2026-11-02",
+      "title": "一句「这一条不要话题标签」在 Bot 之间被传成了永久规则",
+      "url": "https://note.com/wanderdiary2026/n/n4e958196bdc0",
+      "blurb": "每小时自动发帖改成先备稿、批准才发之后，交接备忘把「这一条不要话题标签」扩大成今后全部不要，发帖 Bot 先停了一条已批准的稿，写备忘的那只自己承认是扩大解释。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "note",
+        "日文"
+      ]
+    },
+    {
+      "id": "note-library-holds",
+      "added": "2026-11-02",
+      "title": "想读的书写进 Obsidian，Bot 每天向两家图书馆预约，周五写进 Todoist",
+      "url": "https://note.com/korg_lab/n/n13232906d926",
+      "blurb": "每天中午扫当天带「想读」标签的笔记，避开重复预约后选等待较短的馆下单，周五再把还书和取书期限对进 Todoist，登录放在保管库里，Bot 看不到密码本身，10 月 29 日一次就预约了三本。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "电脑"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "Obsidian",
+        "Todoist"
+      ]
+    },
+    {
+      "id": "substack-weekend-analytics",
+      "added": "2026-11-02",
+      "title": "周末雇来的内容班：冻住的那只由新 Bot 整包接走",
+      "url": "https://christopheralarcon.substack.com/p/i-hired-grok-bot-for-one-weekend",
+      "blurb": "周六他给内容号组了抓取、复盘、教练和漏斗观察四只 Bot，周五早上先收齐没有干净导出的数字并把判决写进备忘录，第一周冻住的那只由新开的 Bot 拷走内容后删除，他还把两份各 200 美元的订阅里降一份到 100 美元，用省下的钱来试这套每周复盘。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "排障"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "bus-transfer-bot",
+      "added": "2026-11-02",
+      "title": "一队 Bot 按实时到站重算公交换乘",
+      "url": "https://github.com/seren-wib/bus-transfer-bot",
+      "blurb": "总控先记下地图软件给出的方案，再把第一辆公交上的每一站分给搜索 Bot 去查真实等候，最后把乘车、站内步行和实时候车加在一起选出更快的换乘点，这是 11 月 1 日黑客松上的一套编制。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "跑腿"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "grokbot-wallpaper",
+      "added": "2026-11-02",
+      "title": "每只 Bot 在三维办公室里有一张会自己更新的桌子",
+      "url": "https://github.com/Bodila51/grokbot-wallpaper",
+      "blurb": "状态一变，Bot 就往私有的 ntfy 话题丢一行 JSON，浏览器据此画出谁在干活、谁卡住、谁在等你，动态壁纸和仪表盘都不必再为它开一台服务器。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "ntfy"
+      ]
+    },
+    {
+      "id": "grok-free-tokens",
+      "added": "2026-11-02",
+      "title": "把重复杂活转给免费模型，付费 Bot 只做判断",
+      "url": "https://github.com/degenyang/grok-free-tokens-enabler",
+      "blurb": "一条命令按备用链把一块材料和一个问题交给免费模型，作者自己的账上七天里有 249 次被免费模型答完，付费 Bot 只亲自做了 7 次。",
+      "section": "skills",
+      "tags": [
+        "计费",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "OpenCode",
+        "OpenRouter"
+      ]
+    },
+    {
+      "id": "grokbot-webhook-adapter",
+      "added": "2026-11-02",
+      "title": "没有自定义请求头的 Webhook 也能叫醒例行任务",
+      "url": "https://github.com/Revve-AI/grokbot-webhook-adapter",
+      "blurb": "Fathom、GitHub 或 Stripe 只给一个网址时，这个 Vercel 函数先验签再补上例行任务要的授权头，没转发成功就返回 502 让对方重试。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "Vercel",
+        "Fathom"
+      ]
+    },
+    {
+      "id": "grokbot-voice-reader",
+      "added": "2026-11-02",
+      "title": "在 Windows 上把桌面版的新回复读出来",
+      "url": "https://github.com/chippybrown/voice-reader-for-grokbot",
+      "blurb": "置顶小条盯着 Windows 桌面版聊天，新回复会跳过名字和时间戳后朗读，可以选 Bot 自己的声音、离线 Piper，或系统自带语音。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Windows",
+        "Piper"
+      ]
+    },
+    {
+      "id": "forum-preflight-kit",
+      "added": "2026-11-02",
+      "title": "动手前先走连接器、再登录、最后才开浏览器的预检包",
+      "url": "https://forum.cursor.com/t/open-sourced-agent-preflight-kit-pre-action-checklist-for-ai-agents/176865",
+      "blurb": "Globe Teck 把在 Grok Bot 上反复漏掉已知登录路径的经验做成可安装的预检包，技能顺序是连接器、已保存的登录、备忘，最后才开浏览器，并附带超长备忘和像密钥字段的检查，以及找出近重复教训的工具。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "agent-preflight-kit"
+      ]
+    },
+    {
+      "id": "substack-ahrefs-team",
+      "added": "2026-11-02",
+      "title": "全队共用 Ahrefs：先分享成团队 Bot，别连个人插件",
+      "url": "https://digitaljoey.substack.com/p/give-your-whole-team-an-seo-expert",
+      "blurb": "建 SEO Expert 时要在配成个人 Bot 之前就分享给团队，Ahrefs 走带 Team 标记的自定义 MCP 和 Bearer 令牌，个人插件保持断开，他用这只 Bot 拉了 RJ Media 迁到 Next.js 之后的站点审计，健康分回到 99。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot",
+        "排障"
+      ],
+      "aliases": [
+        "Substack",
+        "Ahrefs",
+        "MCP"
+      ]
+    },
+    {
+      "id": "forum-usage-doubled",
+      "added": "2026-11-02",
+      "title": "周用量在没有对应活动时翻倍，状态页标恢复后仍卡在顶格",
+      "url": "https://forum.cursor.com/t/grok-bot-weekly-usage-meter-flips-between-77-and-100-in-real-time/176909",
+      "blurb": "11 月 1 日大约 04:10 至 04:20（UTC），周用量在导出记录对不上的情况下一下子涨了大约一倍，应用里的百分比还会在七成多和 100% 之间来回跳，员工确认这与设置和例行任务无关，状态页事件已标恢复但计数仍偏高，开了按量付费的人应先设支出上限。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-apt-srv",
+      "added": "2026-11-02",
+      "title": "云电脑 apt 走 SRV 会撞上 198.18.0.1，关掉 SRV 才能装包",
+      "url": "https://forum.cursor.com/t/apt-fails-with-http-500-on-bot-computer-srv-lookup-routes-to-egress-relay-198-18-0-1/176936",
+      "blurb": "大约从 10 月 29 日起，云电脑上的 apt 查到 Debian 的 SRV 后，解析器把 debian.map.fastlydns.net 答成出口中继 198.18.0.1 并回空的 HTTP 500，而 deb.debian.org 的普通地址仍然正确，把 Acquire::EnableSrvRecords 设为 false 就能装包，重置会清掉 /etc，所以要把这条配置放进 /workspace 的安装脚本里重放。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "apt"
+      ]
+    },
+    {
+      "id": "forum-cross-bot-memory",
+      "added": "2026-11-02",
+      "title": "聊天压缩后，一只 Bot 的私有上限跑进了另一只的规则",
+      "url": "https://forum.cursor.com/t/cross-bot-memory-contamination/176934",
+      "blurb": "他按员工要求公开了一次事故：聊天压缩之后，带重试或时间上限的那只 Bot 的私有规矩被统筹 Bot 当成了自己的，于是提前停手，压缩到底是哪一只触发的，帖里也写明还没有文档可对。",
+      "section": "community",
+      "tags": [
+        "多Bot",
+        "安全"
       ],
       "aliases": [
         "Cursor Forum"
