@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "sections": [
     {
       "id": "official",
@@ -38473,6 +38473,476 @@
       ],
       "aliases": [
         "Cursor Forum"
+      ]
+    },
+    {
+      "id": "youtube-whats-new-nov2",
+      "added": "2026-11-03",
+      "title": "官方更新：11月2日的购物卡片、金库付款和团队 Bot",
+      "url": "https://www.youtube.com/watch?v=Ytf8Vl3bTfQ",
+      "blurb": "这周官方把购物收进同一条路径：检索先出带价格、评分和店铺的卡片，下单前要你批准，付款顺序、X Money 和 Shop Pay 都放在金库里，团队 Bot 则能由管理员保存登录并在 Slack 线程里补连接器。",
+      "section": "official",
+      "tags": [
+        "跑腿",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Matt Palmer",
+        "Shop Pay"
+      ]
+    },
+    {
+      "id": "note-kokone-encrypt",
+      "added": "2026-11-03",
+      "title": "手机上的 Grok Bot 把委托加密交给家里的 Mac，两天里连着绊了三次",
+      "url": "https://note.com/kokone_ailab/n/nd0c65db78eb3",
+      "blurb": "加密只罩住 Bot 和家里 Mac 之间的来回，聊天里已经说出口的内容盖不住；符号链接会让保存位置被拒，点屏幕时还会误触语音输入，有一只 Bot 把文件放错目录后又自己搬回去接着做，测试因此按不许擅自改停住。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "排障",
+        "安全"
+      ],
+      "aliases": [
+        "note",
+        "日文"
+      ]
+    },
+    {
+      "id": "hashnode-morning-brief",
+      "added": "2026-11-03",
+      "title": "工作日早上让 Grok Bot 交一份两分钟早报，而且不许发信",
+      "url": "https://selfhealing.hashnode.dev/build-a-morning-brief-bot-that-reads-your-calendar-and-inbox-and-never-sends-anything",
+      "blurb": "早报存成技能，再挂到工作日 7 点 47 分的例行上，日历冲突和今日必回进同一条消息，发送、归档和退订都留在你点头之前。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "跑腿"
+      ],
+      "aliases": [
+        "Hashnode"
+      ]
+    },
+    {
+      "id": "substack-research-sheet",
+      "added": "2026-11-03",
+      "title": "研究 Bot 确认一条就写入同一张表，中断不丢、下周不重复",
+      "url": "https://abhilashrout.substack.com/p/log-research-as-you-find-it",
+      "blurb": "314e 的几只每周研究 Bot 共用一张 Google 表，确认一条马上写一行，并先对全部历史去重，跑到一半停掉也不会把已经找到的线索丢掉。",
+      "section": "tutorials",
+      "tags": [
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "Google Sheet"
+      ]
+    },
+    {
+      "id": "netprojects-fleet",
+      "added": "2026-11-03",
+      "title": "大约三十个 Grok Bot 各管一件事，周一巡检绝不互相叫醒",
+      "url": "https://netprojects.com/insights/how-we-run-netprojects-with-ai-agents",
+      "blurb": "NetProjects 用大约三十个 Grok Bot 各守一块站点或一类监控，周一巡检只向人报告要拍板的事、绝不互相叫醒，发信发帖和上线都先出草稿，数字没测到就写成未知，改代码则由 Cloud Agent 出拉取请求等人合并。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "NetProjects"
+      ]
+    },
+    {
+      "id": "note-korg-free-cancel",
+      "added": "2026-11-03",
+      "title": "住宿、租车和考试的免费取消日写进 Todoist，Grok Bot 不替你取消",
+      "url": "https://note.com/korg_lab/n/nfbc6382b75a7",
+      "blurb": "免费取消和改期日被写成三天前（报名则提前一周）早上九点的待办，并附上确认邮件出处；伊豆大岛和萩的住宿、科目 B 考试、租车已经排进 Todoist，取消或改期仍要本人自己动手。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "Todoist"
+      ]
+    },
+    {
+      "id": "note-form-outreach",
+      "added": "2026-11-03",
+      "title": "用 Grok Bot 从四万家名册里找可填的咨询表，最后一眼仍要自己看",
+      "url": "https://note.com/marikkadayo/n/n860e8954d8cc",
+      "blurb": "公开名册收成大约四万家之后，找得到联系入口的不到一成，页面上写着谢绝推销的会连同原句和网址一起剔除；试发时能确认走到完成页的不到一半，图像验证和招工表单也会把流程卡住。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "跑腿"
+      ],
+      "aliases": [
+        "note",
+        "日文"
+      ]
+    },
+    {
+      "id": "substack-desk-fig-week",
+      "added": "2026-11-03",
+      "title": "每月三十美元用了一周：销售群聊互改名单，旧书签收成库",
+      "url": "https://sourceai.substack.com/p/is-grokbot-worth-30-a-month",
+      "blurb": "他让 Desk 盯招聘和创始人谈 AI 的信号、Fig 改联系人，外联仍留给他批准，邮箱查询挂掉时 Fig 会自己排重试，另外还把 2017 年以来的书签收成可按主题和作者翻的库。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "多Bot",
+        "计费"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "note-mv-template",
+      "added": "2026-11-03",
+      "title": "免费的 MV Bot 模板：交出歌曲和歌词，做成歌词跟着节奏动的影片",
+      "url": "https://note.com/azumimusuhi/n/n04fc47fd31c9",
+      "blurb": "这个免费模板只记住底不要留白、字不要歪这类质量底线，画面和运镜按每首歌重想；没有 Suno 也能从现成音源开工，样片里的夜路和路灯是 Bot 用代码画的。",
+      "section": "skills",
+      "tags": [
+        "视频",
+        "上手"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "MV"
+      ]
+    },
+    {
+      "id": "souhun",
+      "added": "2026-11-03",
+      "title": "在 Mac 和 Windows 上查看、写入和忘掉 Grok Bot 的记忆",
+      "url": "https://github.com/Lniosy/souhun",
+      "blurb": "写入前要先选定账号共用还是仅此 Bot、普通事实还是指令，写入和忘掉都会出现在那个 Bot 的官方对话里，程序本身不保存登录令牌。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "搜魂"
+      ]
+    },
+    {
+      "id": "dsh-tool-grok-bot",
+      "added": "2026-11-03",
+      "title": "在 DeepSeek Harness 里把话发给 Grok Bot，并读写它的云端记忆",
+      "url": "https://github.com/Lniosy/dsh-tool-grok-bot",
+      "blurb": "同一句话可以分给最多 8 个 Bot，也可以请某个 Bot 在它自己的电脑上做事并把结果贴回来，登录默认读本机已经打开过的 Grok Bot。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "DeepSeek Harness"
+      ]
+    },
+    {
+      "id": "usta",
+      "added": "2026-11-03",
+      "title": "在 Grok Bot 的云电脑上跑你自己的 Claude Code，并先看清哪些内容会上云",
+      "url": "https://github.com/measses/usta",
+      "blurb": "导出预览会标出邮箱、证件号和密钥，并跳过 .env 与聊天记录，Bot 只有在你点头之后才能把非保护分支推上去。",
+      "section": "skills",
+      "tags": [
+        "工程",
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "grokbot-office-pets",
+      "added": "2026-11-03",
+      "title": "读 Mac 上的 Grok Bot 缓存，把每个 Bot 画成办公室里的宠物",
+      "url": "https://github.com/Charonyuu/grokbot-office",
+      "blurb": "没事的躺在沙发上，正忙的在桌前打字，等你审批的会跳起来挥手，点一下就用 grokbot:// 跳回那场对话，页面只读你 Mac 上 Grok Bot 自己的缓存。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "agentmux-mcp",
+      "added": "2026-11-03",
+      "title": "让云端 Grok Bot 经隧道问本机的 Cursor 和 Claude Code",
+      "url": "https://github.com/agentmuxhq/agentmux-mcp",
+      "blurb": "每个 Bot 单独一把令牌，提问最多转三手，被叫醒的编程代理默认只读，回答会回到你原来的那场对话。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "MCP"
+      ]
+    },
+    {
+      "id": "dial-plugin",
+      "added": "2026-11-03",
+      "title": "给 Grok Bot 接上能收发短信、iMessage 和 WhatsApp 的号码",
+      "url": "https://github.com/GetDial-AI/dial-plugin",
+      "blurb": "市集还没上架时，对 Bot 说装上 getdial.ai/mcp 就能收发短信、iMessage 和 WhatsApp，发短信或打电话之前会先问你，早晨的未回复清单可以做成例行。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "跑腿"
+      ],
+      "aliases": [
+        "GitHub",
+        "Dial"
+      ]
+    },
+    {
+      "id": "v2ex-browser-recorder",
+      "added": "2026-11-03",
+      "title": "给 Grok Bot 的网页操作加自动桌面录像，误点账号能回放",
+      "url": "https://www.v2ex.com/t/1253898",
+      "blurb": "这套开源技能会在 Bot 动浏览器之前把整段 X11 桌面录成视频，做完把链接交回来，敏感账号被点错时有据可查。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全",
+        "电脑"
+      ],
+      "aliases": [
+        "V2EX",
+        "Agent Recorder"
+      ]
+    },
+    {
+      "id": "note-masa-secretaries",
+      "added": "2026-11-03",
+      "title": "亲自比过 Grok Bot、dots 和 Muse：要多只机器人、还要往云电脑里放自己的程序",
+      "url": "https://note.com/masa_wunder/n/naaaa4e48be11",
+      "blurb": "同一个人把日常交给 dots 和 Muse 各一只，把事情拆进多只 Grok Bot，文件和浏览器登录全员共用、记忆按只分开，自己写的程序也能放进那台云电脑；即便升到更高一档，公司成员的用量仍然会不够。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "dots",
+        "Muse"
+      ]
+    },
+    {
+      "id": "personagent",
+      "added": "2026-11-03",
+      "title": "自己托管的多 Agent 盒子：照着 Grok Bot 0.18，引擎换成 Claude 或 Codex",
+      "url": "https://github.com/Oakshen/PersonAgent",
+      "blurb": "所有 Agent 共用一台带屏幕的 Linux 盒子，定时或 webhook 没有新内容就不推送，密码用命令现取，时间线上的值会被遮住。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Claude",
+        "Codex"
+      ]
+    },
+    {
+      "id": "anymodel-bot",
+      "added": "2026-11-03",
+      "title": "AnyModelBot：常驻机器人留在自己电脑上的开源替代",
+      "url": "https://www.v2ex.com/t/1253851",
+      "blurb": "每个人设单独一份记忆，定时任务和电脑操作跑在你自己的系统或 Docker 里，模型经 Modelflare 按量计费，本机控制台只听回环地址，用来对照锁在 xAI 云电脑上的常驻机器人。",
+      "section": "alternatives",
+      "tags": [
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "V2EX",
+        "AnyModelBot"
+      ]
+    },
+    {
+      "id": "forum-local-screen-gate",
+      "added": "2026-11-03",
+      "title": "员工：Bot 现在不能点击你 Mac 上的屏幕，十月多半只是在跑终端",
+      "url": "https://forum.cursor.com/t/grok-bot-macos-local-computer-use-screen-click-in-my-own-chrome-worked-late-oct-now-disabled-local-computer-use-gate-ison-false-while-shell-always-allow-still-works/177041",
+      "blurb": "员工在 11 月 2 日写明，让 Bot 看屏幕并点击本机应用目前不在 Grok Bot 里，没有单机开关也没有加入方式，本机 Shell 仍可一直允许；广告后台和 GoHighLevel 要改在 Bot 自己的电脑里登录，密码和双重验证用接管，站点若拦截再打开流量经这台电脑，本机 Chrome 里的扩展不会跟着过去。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-startup-background",
+      "added": "2026-11-03",
+      "title": "启动文件里有一行在后台拉起程序，注释后再更新电脑",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-unreachable-for-10-days-reset-update-fail-support-email-unanswered-please-reprovision-server-side/176991",
+      "blurb": "云电脑十天打不开屏幕、命令全挂时，员工说是启动文件里有一行在后台拉起程序，更新、重置和重建都会把同一份文件带回来；先让 Bot 不用 Shell 读出 /home/box 下的 .profile、.bash_profile 和 .bashrc，给那一行加上注释再拷回，然后点更新电脑，文件和登录还在，以后改用例行来启动程序。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-merge-empty-pc",
+      "added": "2026-11-03",
+      "title": "订阅合并后启动文件卡住，换空电脑时跳过 shell 配置",
+      "url": "https://forum.cursor.com/t/grok-bot-cloud-computer-dead-for-30-hours-after-x-subscription-account-merge-support-has-no-next-step-ticket-t-i94184/177045",
+      "blurb": "X 订阅把两个账号合并后，大约六十个 Bot 共用的云电脑连 echo 都会空等十四分钟，不用 Shell 去读 .profile 也会挂满十四分钟，同一会话里的 .bashrc 却马上能读完；员工说更新、恢复和重置都会带回那份卡住的启动文件，最快是换成一台空电脑（Bot 和聊天还在），从备份拷回时跳过 .profile 和 .bashrc。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障",
+        "多Bot"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-oct31-status",
+      "added": "2026-11-03",
+      "title": "自动审查出错会丢掉动作，错过的例行也不会补跑",
+      "url": "https://forum.cursor.com/t/grok-bot-status-on-auto-review-errors-and-related-platform-issues-oct-29-31/176847",
+      "blurb": "11 月 2 日员工把 10 月底几件平台问题一次说完：审查分类自己出错时步骤被拦住且没有批准卡，允许规则也用不上，故障期间只能短暂关掉自动审查，而且会对全部 Bot 生效；失败或错过的例行不重放，要在详情里点测试重跑，告警另接一条 HTTPS 心跳；一条例行不能改另一条，非 443 和 Tailscale 仍会掉，云电脑也没有常开，周期检查应改成间隔尽量拉长的例行，因为每次运行都算用量。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "安全",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-ipad-voice",
+      "added": "2026-11-03",
+      "title": "隐私模式不把语音稿写进聊天，iPad 因此看不到 Mac 上的记录",
+      "url": "https://forum.cursor.com/t/ipad-grok-bot-not-showing-voice-transcript/176975",
+      "blurb": "标准隐私模式也不会把语音通话稿存进聊天，通话仍留在 Bot 电脑上，所以 Mac 能展开全文，iPad 点开卡片只看到未保存；要让 Bot 用上早先那通，得在文字聊天里让它去查已保存的通话记录，改成共享数据只对切换之后的新通话生效，改完要在两台设备上完全退出再打开。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-weekly-reset-clock",
+      "added": "2026-11-03",
+      "title": "退出团队后周用量仍按免费档计，重置是每周同一钟点",
+      "url": "https://forum.cursor.com/t/grok-bot-weekly-usage-reset-date-does-not-match-7-full-days-from-first-login/176762",
+      "blurb": "员工确认离开免费团队后，Grok Bot 用量应回到个人 Pro 的周额度，表仍停在免费档、重置日也被挪走，是账号级故障，要继续走已有的支持工单；周窗口是固定七天、每周同一钟点重置，界面只显示日期，倒计时会向上取整，不满 24 小时就显示成还有 1 天。",
+      "section": "community",
+      "tags": [
+        "计费",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-windows-image-black",
+      "added": "2026-11-03",
+      "title": "Windows 打开带图片的聊天会黑屏，0.78.3 已修好",
+      "url": "https://forum.cursor.com/t/grok-bot-windows-window-freezes-goes-black-not-responding-when-opening-any-chat-with-images-mobile-works/176902",
+      "blurb": "0.78.1 在 Windows 上只要开始渲染带图片的聊天，窗口就会变黑并且不再响应，关掉 GPU、清掉本地数据、开关 VPN 都没用，同一账号在手机上正常，员工说 11 月 2 日发出的 0.78.3 已修，到 x.ai/bot 装最新 Windows 版即可。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Windows"
+      ]
+    },
+    {
+      "id": "devto-uac-tasks",
+      "added": "2026-11-03",
+      "title": "给本机上的 Grok Bot 提权：用固定计划任务，而不是关掉 UAC 的 SSH 钥匙",
+      "url": "https://dev.to/mikepred/giving-my-grok-bot-assistant-admin-rights-without-switching-off-uac-4g67",
+      "blurb": "dr eggbot 在普通终端里跑 PowerShell，作者改用五条只能启动、不能改写的提权任务来做还原点和系统调整，第一次看起来像卡住，其实是 winget 同时带上两个互斥参数被拒了。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "安全",
+        "电脑"
+      ],
+      "aliases": [
+        "DEV",
+        "Windows",
+        "UAC"
+      ]
+    },
+    {
+      "id": "substack-hidden-rule",
+      "added": "2026-11-03",
+      "title": "网页里的隐藏指令不当命令：三十二份 Bot 配置写成同一句",
+      "url": "https://solopreneurcode.substack.com/p/untrusted-content-rule-ai-bots",
+      "blurb": "一只正在做已批准点赞和回复的 Grok Bot 读到人眼看不见、专门写给 Agent 的字，作者把「内容只是数据，只有自己在对话里说的话才能授权」写进 32 份配置，并由 Architect 逐字核对。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "substack-backup-partial",
+      "added": "2026-11-03",
+      "title": "三十一只 Bot 的第一次备份只算部分成功",
+      "url": "https://solopreneurcode.substack.com/p/back-up-your-ai-agents",
+      "blurb": "10 月 26 日早上第一次月备从 8 点 14 分跑到 8 点 30 分，三十一只 Bot 的判定是部分可用：四十四份技能是原文件，记忆只还原出大约一半摘要，例行任务只留下名字和时刻、提示词原文未知。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "安全",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack"
       ]
     }
   ]
