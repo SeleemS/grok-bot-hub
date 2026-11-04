@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "sections": [
     {
       "id": "official",
@@ -38943,6 +38943,564 @@
       ],
       "aliases": [
         "Substack"
+      ]
+    },
+    {
+      "id": "youtube-whats-new-2",
+      "added": "2026-11-04",
+      "title": "官方课：第二期新功能，Bot 邮箱、1Password 和可分享页面",
+      "url": "https://www.youtube.com/watch?v=lQB3kZZZYss",
+      "blurb": "工程师当场给 Bot 领邮箱，用加号别名把收据和简报拆进不同例行，发信前先出草稿，再用 1Password 登录 LinkedIn 且凭据不进 Bot 视野，最后把项目数据做成可筛选、可分享、能定时刷新的页面。",
+      "section": "official",
+      "tags": [
+        "插件",
+        "安全",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Grok",
+        "1Password"
+      ]
+    },
+    {
+      "id": "youtube-clay-nov2",
+      "added": "2026-11-04",
+      "title": "官方课：对着结果说，让 Grok Bot 和 Clay 把获客表搭出来",
+      "url": "https://www.youtube.com/watch?v=FFOZAl7wihE",
+      "blurb": "11 月 2 日这场官方课里，Clay 的作者对着结果讲每周家庭简报、进线测速和订阅者内容看板，再用 Clay、客户关系和表格拼活动邀请名单，后半段讲怎么自己做工具、两边怎么计费。",
+      "section": "official",
+      "tags": [
+        "插件",
+        "销售",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Grok",
+        "Clay"
+      ]
+    },
+    {
+      "id": "youtube-finserv-nov2",
+      "added": "2026-11-04",
+      "title": "官方课：金融机构怎么养一队分析师 Bot",
+      "url": "https://www.youtube.com/watch?v=AdxoMFFmTE0",
+      "blurb": "财富管理演示里，团队 Bot 先核对沟通合规、再盯敞口，并起草投委会备忘录和幻灯片，受监管场景则对照自动审查、审计轨迹、零数据保留和隔离电脑，决定个人 Bot 与团队 Bot 怎么分。",
+      "section": "official",
+      "tags": [
+        "多Bot",
+        "安全",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Grok"
+      ]
+    },
+    {
+      "id": "financial-freedom",
+      "added": "2026-11-04",
+      "title": "付款通知经 Grok Bot 例程记进自己的 Google 表格",
+      "url": "https://github.com/WillingE/financial-freedom",
+      "blurb": "iPhone 在 iOS 27 上把微信、支付宝和银行通知交给 Webhook 例程解析去重后写入四张表，内容不够或单笔较大才问一句，本人账户之间的转账不算支出。",
+      "section": "tutorials",
+      "tags": [
+        "跑腿",
+        "上手"
+      ],
+      "aliases": [
+        "GitHub",
+        "记账"
+      ]
+    },
+    {
+      "id": "note-don-usage-chart",
+      "added": "2026-11-04",
+      "title": "周额度到 94% 之后，让 Grok Bot 按只画出谁在烧用量",
+      "url": "https://note.com/don_mecha/n/n39939272f39b",
+      "blurb": "11 月 1 日夜里周额度已到 94%，重置要到 11 月 6 日早上 8 时 48 分，按只画成图之后才看到聊天占了绝大部分，最费的一条例行也只占这周大约 2%。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "多Bot"
+      ],
+      "aliases": [
+        "note",
+        "日文"
+      ]
+    },
+    {
+      "id": "note-kokone-model-tier",
+      "added": "2026-11-04",
+      "title": "从手机上的 Grok Bot 派活时，可以指定家里 Mac 上的模型档位",
+      "url": "https://note.com/kokone_ailab/n/na44002c6487c",
+      "blurb": "从手机派活时可以指定家里 Mac 上的模型档位，四组试跑覆盖 Astra、Opus 和 Sol，其中 Opus 最高档因 iPhone 系统更新过期，Codex 先停下来问能否只重跑这一次。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "Codex",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "note-rainy-plan-switch",
+      "added": "2026-11-04",
+      "title": "为了用上 Grok Bot，从 Cursor Pro+ 换到月 30 美元档",
+      "url": "https://note.com/rainyryo/n/ne56a2c6210c3",
+      "blurb": "从月 60 美元的 Cursor Pro+ 换成含 Grok Bot 的 X 订阅 Premium（月 30 美元），旧套餐按日退回 58.38 美元，用量仍与 Grok 和 Cursor 按周合用。",
+      "section": "tutorials",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "X Subscription"
+      ]
+    },
+    {
+      "id": "substack-content-pipeline",
+      "added": "2026-11-04",
+      "title": "一人内容组的十二步：博客从选题交到 LinkedIn",
+      "url": "https://abhilashrout.substack.com/p/grok-bot-content-team",
+      "blurb": "314e 把博客从选题做到 LinkedIn：选题批准、法务、终审和配图批准留给人，研究起草、事实核对、送进 Strapi 和发出帖子交给带交接词的 Grok Bot，文里附了可照抄的提示词。",
+      "section": "tutorials",
+      "tags": [
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "314e",
+        "Strapi"
+      ]
+    },
+    {
+      "id": "substack-strapi-once",
+      "added": "2026-11-04",
+      "title": "录一次 Strapi 上传，收成下次能重跑的技能",
+      "url": "https://abhilashrout.substack.com/p/teach-bot-your-cms-showing-once",
+      "blurb": "他在 Strapi 里真实上传一遍博客，Grok Bot 把这次操作收成以后能重跑的技能，测试站核对通过后才允许上线，发布前仍留人检查。",
+      "section": "tutorials",
+      "tags": [
+        "运营",
+        "电脑"
+      ],
+      "aliases": [
+        "Substack",
+        "Strapi",
+        "314e"
+      ]
+    },
+    {
+      "id": "x-lange-feishu-handoff",
+      "added": "2026-11-04",
+      "title": "微信截图派给 Grok Bot：飞书文档当交接条",
+      "url": "https://x.com/0xlangeai/status/2117582319473102854",
+      "blurb": "蓝哥把电脑端微信里的一张截图经 WorkBuddy 派给 Grok Bot，两边用一篇私有飞书文档交接，测试单只传编号和公开问题，读回的结论是已验证的 Ultra 账户会逐步取消 5 小时限制、周限额仍在。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "上手"
+      ],
+      "aliases": [
+        "X",
+        "飞书",
+        "WorkBuddy"
+      ]
+    },
+    {
+      "id": "youtube-chaoyuanyu-handoff",
+      "added": "2026-11-04",
+      "title": "手机跨设备派活：云电脑、记忆 Bot，再把规格交给云端编程",
+      "url": "https://www.youtube.com/watch?v=uK3j5AbpiF0",
+      "blurb": "手机先确认 Mac mini 上的 Grok CLI 还在跑，并用一条规则拦住其他设备操作主力电脑，云电脑查到 8 核、16GB，主 Bot 当天记进 5 条长期记忆，群聊规格再从 Grok CLI 交到 Cursor Cloud Agents。",
+      "section": "tutorials",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "工程"
+      ],
+      "aliases": [
+        "YouTube",
+        "AI超元域"
+      ]
+    },
+    {
+      "id": "note-hideki-teishoku",
+      "added": "2026-11-04",
+      "title": "定食屋店主的多只 Grok Bot：70 分以上可发，用量曾到 98.7%",
+      "url": "https://note.com/hideki105/n/n5a174dded482",
+      "blurb": "店主按岗位拆出内容、记录和监视几只 Bot，作品由 Bot 自己打分，70 分以上可以不经本人确认就发出，YouTube 和 X 仍要本人按最后的发布，用量曾经到过月上限的 98.7%，note 的自动发布停过，Instagram 也有一天被拒。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营",
+        "计费"
+      ],
+      "aliases": [
+        "note",
+        "日文"
+      ]
+    },
+    {
+      "id": "note-dq-stock-watch",
+      "added": "2026-11-04",
+      "title": "卖断的桌游交给 Grok Bot 盯库存，两天后找到低于标价的店",
+      "url": "https://note.com/kenje_muto/n/n1b87f5e55ce2",
+      "blurb": "标价含税 7,150 日元的勇者斗恶龙人生游戏到处断货、转卖超过 1 万日元，Bot 在早上 8 点到晚上 10 点之间每两小时查一次，大约两天后带回一家低于标价且显示可下单的店，购买和加入购物车都留在本人这边。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "note",
+        "日文"
+      ]
+    },
+    {
+      "id": "note-gamisuke-approvals",
+      "added": "2026-11-04",
+      "title": "手机只跟主 Bot 说话：审批只卡住花钱、发送、删除和改文件",
+      "url": "https://note.com/gamisuke0507/n/n604df231bce1",
+      "blurb": "本人在手机上只向主 Bot 交代和批准，重活交给一直开着的家里电脑上的 Claude Code，电脑不在线就只回报离线，要批准的限于花钱、对外发送、删除、签约和改电脑文件。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "工程",
+        "安全"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "substack-boss-mundane",
+      "added": "2026-11-04",
+      "title": "班底换了：The Boss 扫刊、整理下载、改幻想足球弃权",
+      "url": "https://shaggyrs6.substack.com/p/how-my-ai-stack-evolved",
+      "blurb": "Lee 的主对接是名叫 The Boss 的 Grok Bot，专员按预定主题扫 Substack，Downloads Tidy 每三天整理下载文件夹且不许删除，他在 10 月 27 日核对过 Yahoo 弃权已经改完。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "跑腿"
+      ],
+      "aliases": [
+        "Substack",
+        "The Boss"
+      ]
+    },
+    {
+      "id": "x-minchoi-ortho",
+      "added": "2026-11-04",
+      "title": "开车途中约上儿科骨科：Bot 打电话、追问、收表",
+      "url": "https://x.com/minchoi/status/2117633564736938471",
+      "blurb": "Min Choi 女儿练舞扭伤后，Grok Bot 在他开车时筛了附近能拍片的诊所、打电话约到当天 9:30，接待处追问时当场问他，并把保险、费用和挂号表送进邮箱与日历，通话有录音可回看。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "X",
+        "Min Choi"
+      ]
+    },
+    {
+      "id": "x-dylan-progressive",
+      "added": "2026-11-04",
+      "title": "接孩子时让 Bot 打给 Progressive 问玻璃险",
+      "url": "https://x.com/dkmitc/status/2117375502285721792",
+      "blurb": "Dylan 让 Grok Bot 比新车险时官网写不清挡风玻璃理赔，就在接孩子的路上替他打给 Progressive，帖里放了消过个人隐私、剪过时长的通话录音和逐字稿。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "X",
+        "Progressive"
+      ]
+    },
+    {
+      "id": "youtube-peter-comcast",
+      "added": "2026-11-04",
+      "title": "让 Bot 打电话，把宽带月费从 84 美元谈到 45 美元",
+      "url": "https://www.youtube.com/watch?v=F-356TczoQU",
+      "blurb": "片中放出 Grok Bot 打给 Comcast 的真实通话，月费从 84 美元谈到 45 美元，一年少付将近 500 美元，并写了怎么发起通话、另外五类可以交出去的电话，以及和 Muse 的差别。",
+      "section": "cases",
+      "tags": [
+        "跑腿",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Peter Yang",
+        "Comcast"
+      ]
+    },
+    {
+      "id": "gb-launcher",
+      "added": "2026-11-04",
+      "title": "在一台 Mac 上并排登录多个 Grok Bot 账号",
+      "url": "https://github.com/paulpierre/gb-launcher",
+      "blurb": "官方应用一次只能登一个号，这个不改安装包的小工具给每个账号一个带颜色和编号的窗口，可以放到桌面双击打开，登录仍用你自己的 Grok Bot。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "GB Launcher"
+      ]
+    },
+    {
+      "id": "grok-codex-native",
+      "added": "2026-11-04",
+      "title": "在 Grok Bot 的云电脑上把编码交给 Codex",
+      "url": "https://github.com/ystory/grok-codex-native",
+      "blurb": "每项任务在云电脑的独立 Docker 工人里跑，睡眠期间会停，重置或更新电脑会结束进行中的任务，登录、历史和文件还在，做完把结果交回原来的对话。",
+      "section": "skills",
+      "tags": [
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Codex"
+      ]
+    },
+    {
+      "id": "gbdev",
+      "added": "2026-11-04",
+      "title": "让 Grok Bot 在本机指挥 Codex 和 Cursor 分头写代码",
+      "url": "https://github.com/MarcusYuan/gbdev",
+      "blurb": "每个工人用自己的 Git 工作树和分支，评审与修复有轮次上限，合进本地目标分支前把决定交回给你，运行在你自己的电脑上。",
+      "section": "skills",
+      "tags": [
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Codex",
+        "Cursor"
+      ]
+    },
+    {
+      "id": "grok-video-studio",
+      "added": "2026-11-04",
+      "title": "共用云电脑上的实拍剪辑工具，成片要带证据才能交接",
+      "url": "https://github.com/htetahyan/grok-video-studio",
+      "blurb": "素材按实拍来剪，每条成片要带响度卡片和静帧才算做完，发布、花钱和删原片都要你明确同意，工具装在 Bot 共用的那台 Linux 上。",
+      "section": "skills",
+      "tags": [
+        "视频",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Framewright"
+      ]
+    },
+    {
+      "id": "x-reply-guard-mcp",
+      "added": "2026-11-04",
+      "title": "给 Grok Bot 用的自托管 X 发帖服务，先草稿再由人放行",
+      "url": "https://github.com/damao-bot-army/x-reply-guard-mcp",
+      "blurb": "默认先存草稿，人批准后才经官方接口发出，帖子内容一律当不可信数据，安全边界放在这台自托管服务上，而不是写进提示词里。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "MCP",
+        "X"
+      ]
+    },
+    {
+      "id": "bianwuwei-skills",
+      "added": "2026-11-04",
+      "title": "四份日常技能模板：周报、行动卡、会议纪要和公众号小绿书",
+      "url": "https://github.com/bianwuwei/grok-bot-skills",
+      "blurb": "四份日常在用的技能模板只使用原材料里已有的信息，缺的标成待确认，原文件只读，对外发送前先问你，其中周报加行动卡需要大总管和专岗已经在同一个群里。",
+      "section": "skills",
+      "tags": [
+        "运营",
+        "上手"
+      ],
+      "aliases": [
+        "GitHub",
+        "小绿书"
+      ]
+    },
+    {
+      "id": "note-maru-why-grok",
+      "added": "2026-11-04",
+      "title": "同一个人选 Grok Bot：投资测算在云电脑上做完",
+      "url": "https://note.com/easy_mink5448/n/n6a5f7b01fc2e",
+      "blurb": "对照 dots 和 Muse 之后，他把已经做过的恐慌指数与日经平均测算留在云电脑上，用公开的 FRED 和日本交易所数据算出表和图并带来源，周一行情和笔记草稿则写成可以反复交代的嘱咐。",
+      "section": "reviews",
+      "tags": [
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "note",
+        "日文",
+        "dots",
+        "Muse"
+      ]
+    },
+    {
+      "id": "youtube-shishigami-muse",
+      "added": "2026-11-04",
+      "title": "日语对照：Grok Bot 和 Muse 差在哪，费用又坑在哪",
+      "url": "https://www.youtube.com/watch?v=D3YpzmmKW1A",
+      "blurb": "片中把收费、在 X 里直接派活、同时养多只专职 Bot，以及费用难以预估和 Muse 的适用场景拆开，并标明打电话目前还没写进官方说明。",
+      "section": "reviews",
+      "tags": [
+        "计费",
+        "多Bot"
+      ],
+      "aliases": [
+        "YouTube",
+        "日文",
+        "Muse"
+      ]
+    },
+    {
+      "id": "grok-bots-blueprint",
+      "added": "2026-11-04",
+      "title": "九个正在用的 Grok Bot 岗位蓝图，可在 Ubuntu 上重建",
+      "url": "https://github.com/Mani-QA/grok-bots-blueprint",
+      "blurb": "九个正在用的 Bot 各有一份从 11 月 3 日仍能看到的转录、记忆和例程抄出的技能，当时看不见的部分单独留白，并写了怎么在一台 Ubuntu 上按同样的分工重建。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "forum-skill-copy-lag",
+      "added": "2026-11-04",
+      "title": "技能显示已更新，云电脑要醒着才会换上新副本",
+      "url": "https://forum.cursor.com/t/grok-bot-skill-updates-report-success-but-land-hours-later-with-no-completion-notice/177164",
+      "blurb": "「Updated」只表示改动已进技能库，Bot 电脑上的副本只在电脑醒着时刷新，睡着时保存要等到下次唤醒（这次大约是凌晨 4 时的例行）才换上，其间已经用过这台电脑的 Bot 仍读旧文件，醒着时再存一次就会马上到位。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "电脑",
+        "多Bot"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-screens-all-in-use",
+      "added": "2026-11-04",
+      "title": "共享电脑报屏幕都在占用，新建 Bot 也截不了图",
+      "url": "https://forum.cursor.com/t/grok-bot-every-bots-desktop-and-browser-stuck-on-all-screens-on-the-shared-computer-are-in-use/177180",
+      "blurb": "11 月 3 日上午起十六个 Bot 的桌面和浏览器都报共享电脑的屏幕已被占满，其实没有 Bot 占着屏幕，Shell 仍正常，更新清不掉，员工说重置也不会清，按建议新建一只去截图同样失败。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障",
+        "多Bot"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-order-card-expired",
+      "added": "2026-11-04",
+      "title": "购物订单卡三十分钟后过期，重新核价打不开付款",
+      "url": "https://forum.cursor.com/t/grok-bot-retail-order-card-says-this-order-expired-and-pay-cant-be-tapped-even-right-after-the-bot-rechecked-the-price/177149",
+      "blurb": "零售订单卡发出后只有三十分钟能点付款，聊天里重新核价不会让旧卡复活，Bot 会另发一张新卡，这张新卡本应能付，但这次点下去没有反应，员工还在等卡面上当时的原文。",
+      "section": "community",
+      "tags": [
+        "跑腿",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-reply-context",
+      "added": "2026-11-04",
+      "title": "长聊天里回复旧消息，Bot 收不到引用",
+      "url": "https://forum.cursor.com/t/reply-context-lost-bot-cant-see-the-message-a-user-replied-to/177057",
+      "blurb": "长对话里对较早的消息点回复时，引用和图片会在送到 Bot 之前丢掉，它只看到新写的文字，回复较近的消息仍会带上引用，修好前把要点直接写进消息或重新附上图片。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-ibkr-grokcom",
+      "added": "2026-11-04",
+      "title": "盈透连接挂在 grok.com 上，账号合并后 Bot 这边会掉",
+      "url": "https://forum.cursor.com/t/ibkr-mcp-connector-is-on-grok-com-but-it-just-suddenly-disappears-on-grok-bot/176922",
+      "blurb": "员工说明盈透连接跟着同一登录挂在 grok.com 的连接器上，掉了要在那边重新添加并完全退出再打开 Bot，有人升到 X 订阅并绑定账号后中断，改让 Bot 直连盈透公开 MCP 才恢复做账户草稿，grok.com 列表里的那条到不了 Bot。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "IBKR"
+      ]
+    },
+    {
+      "id": "forum-takeover-clipboard",
+      "added": "2026-11-04",
+      "title": "接管 Bot 屏幕时，文字剪贴板可以双向用",
+      "url": "https://forum.cursor.com/t/grok-bot-shared-clipboard-between-the-bots-computer-and-my-local-machine/177069",
+      "blurb": "员工确认接管 Bot 屏幕时，文字剪贴板应能在虚拟桌面和你的电脑之间双向传递，确认号、链接和要填进表单的内容都能直接贴过去，若快捷键仍然无效，需要补充你实际按的组合键。",
+      "section": "community",
+      "tags": [
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "x-mira-discord-voice",
+      "added": "2026-11-04",
+      "title": "云电脑出不了 Discord 语音端口，改经隧道叫本机插件发声",
+      "url": "https://x.com/MiraLunaMocha/status/2117318643205697896",
+      "blurb": "她实测云电脑只放行普通网页，Discord 语音口被挡住，于是让 Bot 穿过 Cloudflare 隧道去叫自己电脑上的 MCP，再由本机插件把声音送进 Discord 机器人账号，并录了一段演示。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑",
+        "插件"
+      ],
+      "aliases": [
+        "X",
+        "Discord",
+        "Cloudflare"
       ]
     }
   ]
