@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "sections": [
     {
       "id": "official",
@@ -40858,6 +40858,456 @@
       "aliases": [
         "X",
         "Tyler"
+      ]
+    },
+    {
+      "id": "youtube-matt-qa1",
+      "added": "2026-11-07",
+      "title": "产品团队第一场问答：Pages、团队 Bot、金库和谁最烧额度",
+      "url": "https://www.youtube.com/watch?v=m3zk6ESdqw4",
+      "blurb": "Matt Palmer 和 Eric Zakariasson 在第一场问答里讲了 Pages 怎么拼、Bot 怎样互相说话、每天早上的公司简报，以及哪些 Bot 最烧额度。",
+      "section": "official",
+      "tags": [
+        "上手",
+        "多Bot",
+        "计费",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Matt Palmer",
+        "Eric Zakariasson",
+        "Pages"
+      ]
+    },
+    {
+      "id": "substack-314e-attribution",
+      "added": "2026-11-07",
+      "title": "314e：转化来源按会话回查，并给每条标上置信度",
+      "url": "https://abhilashrout.substack.com/p/trace-where-conversion-came-from",
+      "blurb": "314e 把过去要人工翻 Microsoft Clarity 的转化追查交给一只 Bot，它按通知时间对上会话，来源不清就顺着该访客更早的访问回查，每条当场写入同一张表并标上高、中或低置信，登录过期则停下来等人。",
+      "section": "tutorials",
+      "tags": [
+        "运营"
+      ],
+      "aliases": [
+        "Substack",
+        "314e",
+        "Abhilash Rout",
+        "Clarity"
+      ]
+    },
+    {
+      "id": "substack-marketer-ten",
+      "added": "2026-11-07",
+      "title": "营销人的十只 Bot：早八点简报停在待批准",
+      "url": "https://getmarketingwithai.substack.com/p/the-marketers-guide-to-grok-bots",
+      "blurb": "作者从一只幕僚长扩到十只，工作日早上八点拿到日历冲突、两只收件箱里要处理的事和两三个选题，内容侦察、第二大脑和社媒总监把稿子留到他点头。",
+      "section": "tutorials",
+      "tags": [
+        "上手",
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "Substack",
+        "Robert Gillespie"
+      ]
+    },
+    {
+      "id": "youtube-johnny-orgchart",
+      "added": "2026-11-07",
+      "title": "先别再加 Bot：二十八只收成一张组织图",
+      "url": "https://www.youtube.com/watch?v=cPOhbaKFyFg",
+      "blurb": "他把二十八只 Bot 收成各有上级的编制，可能的交叉聊天从三百七十多条收成二十七条汇报线，对外发出的内容、花钱和改团队都还要他自己点头，十一月的五十六条短视频已经排好。",
+      "section": "tutorials",
+      "tags": [
+        "多Bot",
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Johnny Nel"
+      ]
+    },
+    {
+      "id": "x-elisa-four",
+      "added": "2026-11-07",
+      "title": "四个空转习惯：一次性问题、没有终点、没有共享记忆、业务上下文不进 GitHub",
+      "url": "https://x.com/eeelistar/status/2118759568096551403",
+      "blurb": "Elisa 这段录像按时间轴讲了四个会让 Grok Bot 空转的习惯，只问一次性问题、没有终点、不做共享记忆、不把业务上下文放进 GitHub。",
+      "section": "tutorials",
+      "tags": [
+        "运营",
+        "视频"
+      ],
+      "aliases": [
+        "X",
+        "Elisa"
+      ]
+    },
+    {
+      "id": "jike-tang-ops",
+      "added": "2026-11-07",
+      "title": "唐亦安：客诉回信、买外链、谈 KOL 都交给 Grok Bot 跑完",
+      "url": "https://m.okjike.com/originalPosts/6aed4e9c38389f59931299ce",
+      "blurb": "客诉回信、外链采购、KOL 建联和关键词调研都由 Grok Bot 跑完并归档到 Lark，人只在发送和验收时点头，所以他准备把套餐升到 200 美元。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "销售"
+      ],
+      "aliases": [
+        "即刻",
+        "唐亦安"
+      ]
+    },
+    {
+      "id": "grokbot-ops-lab",
+      "added": "2026-11-07",
+      "title": "人闸运营账本：稿只出草稿，发送仍由人点",
+      "url": "https://github.com/huanxxxx/grokbot-ops-lab",
+      "blurb": "这份账本规定选题和回复只出草稿，X 的手回要先过粘贴测试，并写明哪些做法停用，涨粉不在承诺里。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "人闸"
+      ]
+    },
+    {
+      "id": "x-wujie-gateway",
+      "added": "2026-11-07",
+      "title": "企业级 AI 网关第六天：团队账户、计税和额度预留",
+      "url": "https://x.com/wjsz2070/status/2118763621555884325",
+      "blurb": "无界生长用 Grok Bot 做到企业级 AI 网关的第六天，团队邀请、角色、审计和团队扣费已经接上控制台，支付侧补了自动计税和账单明细，用量侧做了钱包和密钥的额度预留。",
+      "section": "cases",
+      "tags": [
+        "工程"
+      ],
+      "aliases": [
+        "X",
+        "无界生长"
+      ]
+    },
+    {
+      "id": "youtube-chong-game",
+      "added": "2026-11-07",
+      "title": "拿 Grok Bot 做游戏：从简报样稿到本机试玩，再拆给多只 Bot",
+      "url": "https://www.youtube.com/watch?v=Dq0A1AUoMo8",
+      "blurb": "他把一款小游戏从简报、样稿和素材管线做到本机试玩，后段再拆给多只 Bot 分工，成片可以自己打开试。",
+      "section": "cases",
+      "tags": [
+        "工程",
+        "多Bot",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Chong-U",
+        "Scrappy Yard"
+      ]
+    },
+    {
+      "id": "grok-bot-cn",
+      "added": "2026-11-07",
+      "title": "中文契约库：贴一条链接，让 Setup 按档案把团队装上",
+      "url": "https://github.com/junze-xu/grok-bot-cn",
+      "blurb": "新建一只叫 Setup 的 Bot，把仓库里 START.md 的原始链接贴进去，它会去取每个岗位的档案，第一周默认只起草，通不过无密钥检查的模板进不了目录。",
+      "section": "skills",
+      "tags": [
+        "上手",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "junze-xu"
+      ]
+    },
+    {
+      "id": "hermesmade",
+      "added": "2026-11-07",
+      "title": "把现有 Grok Bot 迁进 Hermes：例程先暂停，像密钥就整份拒绝",
+      "url": "https://github.com/Noshkoto/hermesmade",
+      "blurb": "每个 Bot 按提示词导出，Hermes 先给出预览再建档，定时例程变成同一时区里暂停的任务，导出里一旦像密钥就整份拒绝。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "多Bot",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Hermes"
+      ]
+    },
+    {
+      "id": "agent2grokbot",
+      "added": "2026-11-07",
+      "title": "桌面 MCP 客户端把活派给只收 Webhook 的 Grok Bot",
+      "url": "https://github.com/Anudorannador/Agent2GrokBot",
+      "blurb": "桌面客户端没有入站地址，这台服务替它守着回调，超时就留下任务号继续查，多路会话只按任务号分开，结果落在 SQLite 里。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "MCP",
+        "Webhook"
+      ]
+    },
+    {
+      "id": "campus-3d",
+      "added": "2026-11-07",
+      "title": "三十多只 Bot 的三维校园：公开演示是假数据，技能才接到你自己的队",
+      "url": "https://github.com/sarbarshem/grok-bot-3d-campus",
+      "blurb": "公开页面用的是编出来的数据，按钮不连任何东西，技能要求主 Bot 先把方案给你看，再在你自己的账号上建一个只上传岗位名、待批事项和用量的私有校园。",
+      "section": "skills",
+      "tags": [
+        "多Bot",
+        "插件",
+        "计费"
+      ],
+      "aliases": [
+        "GitHub",
+        "3D campus",
+        "sarbarshem"
+      ]
+    },
+    {
+      "id": "forum-custom-connector",
+      "added": "2026-11-07",
+      "title": "0.79.2 的连接应用底部已能添加自定义连接器",
+      "url": "https://forum.cursor.com/t/grok-bot-secure-field-for-a-custom-mcp-api-key/177508",
+      "blurb": "给只认请求头密钥的 Tilda 时，员工先说密钥只能写进聊天，随即改口让人升到 0.79.2，在连接应用列表底部添加自定义连接器。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Tilda",
+        "0.79.2"
+      ]
+    },
+    {
+      "id": "bot-showdown",
+      "added": "2026-11-07",
+      "title": "同一套销售作业对打：Grok Bot 和 Claude Code 各跑一轮",
+      "url": "https://github.com/onittindwani-ai/bot-showdown-test-kit",
+      "blurb": "答案在开跑前锁了哈希，线索全是虚构的，11 月 6 日这一轮两边都把 44 个真人找全，跟进邮件里 Grok Bot 编了 2 处、Claude Code 是 0，各只跑了一次。",
+      "section": "reviews",
+      "tags": [
+        "销售"
+      ],
+      "aliases": [
+        "GitHub",
+        "Claude Code"
+      ]
+    },
+    {
+      "id": "substack-bret-teammate",
+      "added": "2026-11-07",
+      "title": "同事不是模型：共用电脑、认证和用量账单放在一起看",
+      "url": "https://bretkerr.substack.com/p/the-teammate-is-not-the-model",
+      "blurb": "这篇把八月十一日到十一月五日五家实验室的常驻同事放在一起，写明 Grok Bot 多只 Bot 共用带浏览器和终端的云电脑，上线时没有 SOC 2 或 ISO 认证，并记下万圣节周末用量条在无人操作时跳升后马斯克称成本相对收入高得不可持续。",
+      "section": "reviews",
+      "tags": [
+        "计费",
+        "安全",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "Bret Kerr"
+      ]
+    },
+    {
+      "id": "substack-three-assistants",
+      "added": "2026-11-07",
+      "title": "Grok Bot、Dots 与 Muse：三件差事分别适合谁",
+      "url": "https://askbetteraiprompts.substack.com/p/grok-bot-vs-dots-vs-muse-ai-assistants",
+      "blurb": "作者用安排周六晚上和每周步行天气这两件差事对比三家，Muse 偏生活杂务且可免费起用，Dots 按文中 2026 年 10 月的页面只在 ChatGPT Pro，Grok Bot 则是几只各管一件长任务、买东西和发消息前会先问人的队友。",
+      "section": "reviews",
+      "tags": [
+        "多Bot",
+        "上手"
+      ],
+      "aliases": [
+        "Substack",
+        "Dots",
+        "Muse",
+        "Jennifer Knight"
+      ]
+    },
+    {
+      "id": "opencomputer-diy",
+      "added": "2026-11-07",
+      "title": "自建一只 Grok Bot 式队友要补哪些层",
+      "url": "https://opencomputer.dev/blog/diy-your-own-grokbot/",
+      "blurb": "作者把自建一只常驻队友拆成要自己做的代理循环、把截图分析交给子代理以免撑爆上下文，以及工具定义等到真用时再加载。",
+      "section": "reviews",
+      "tags": [
+        "电脑",
+        "工程"
+      ],
+      "aliases": [
+        "OpenComputer",
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "youtube-broc-fineprint",
+      "added": "2026-11-07",
+      "title": "三十美元周额度的细则：数字不公布，聊天、Bot 和 Cursor 画的是不是同一个池",
+      "url": "https://www.youtube.com/watch?v=lNwwL9jTNJE",
+      "blurb": "作者对照方案页和马斯克关于服务成本的说法，指出三十美元档不公布每周额度的具体数字，并认为聊天、Bot 和 Cursor 画的是同一个池，万圣节的跳变也可能是面板故障，退款和重置都还没宣布。",
+      "section": "reviews",
+      "tags": [
+        "计费",
+        "视频"
+      ],
+      "aliases": [
+        "YouTube",
+        "Broc"
+      ]
+    },
+    {
+      "id": "opengrokbot-nickylin",
+      "added": "2026-11-07",
+      "title": "OpenGrokBot（nickylin）：花名册留在本机，模型自己接",
+      "url": "https://github.com/nickylin/OpenGrokBot",
+      "blurb": "模型要自己接 Ollama 或兼容接口，密钥写在本机设置文件里，页面默认只听 127.0.0.1，macOS 上关掉窗口会缩进菜单栏。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "OpenGrokBot",
+        "Ollama"
+      ]
+    },
+    {
+      "id": "kwant",
+      "added": "2026-11-07",
+      "title": "kwant：自托管小队，没自己跑过检查就不能标成已核对",
+      "url": "https://github.com/alexsergivan/kwant",
+      "blurb": "一个二进制里放多只 Bot，在消息里点名就能互相交办，任务要变成已核对必须由 kwant 自己跑检查，额度用尽会换到下一个已登录的账号，数据留在你自己的机器上。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "kwant"
+      ]
+    },
+    {
+      "id": "turnstone",
+      "added": "2026-11-07",
+      "title": "Turnstone：额度用尽就换到你已经在付费的模型",
+      "url": "https://www.hunted.space/product/turnstone",
+      "blurb": "创始人写自己每天用 Grok Bot，周额度常在事情做到一半时见顶，于是这个 Mac 应用让你登录已有的 Claude、ChatGPT、Cursor 或 Grok，一个到上限就在同一段对话里换到另一个，已有 Bot 的技能和例程也能搬过去。",
+      "section": "alternatives",
+      "tags": [
+        "计费",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "Product Hunt",
+        "Turnstone"
+      ]
+    },
+    {
+      "id": "forum-clone-not-cloud",
+      "added": "2026-11-07",
+      "title": "改仓库默认交给 Cursor 云端代理，要本地 CLI 得当条写明",
+      "url": "https://forum.cursor.com/t/grok-refuses-to-submit-code-unless-its-on-cursoor-cloud/177437",
+      "blurb": "员工确认这不是故障，仓库修改默认走 Cursor 云端代理，同一条消息里写明把仓库克隆到 Bot 电脑并用 Claude CLI 修改、不要用云端代理，才会在本地动手，这句话对定时任务无效。",
+      "section": "community",
+      "tags": [
+        "工程",
+        "排障",
+        "计费"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Claude CLI"
+      ]
+    },
+    {
+      "id": "forum-outlook-browser",
+      "added": "2026-11-07",
+      "title": "聊天拒绝用浏览器开 Outlook，定时扫描却还在读收件箱",
+      "url": "https://forum.cursor.com/t/grok-bot-scheduled-outlook-webmail-scans-work-but-the-same-bot-refuses-browser-access-in-chat/177447",
+      "blurb": "员工说聊天最近会把人推向 Outlook 连接器，即便公司邮箱根本批不了它，定时任务并没有被故意拆成另一套，眼下可以让每小时例程把草稿留在草稿箱，或换一只新 Bot 交接后再发出已批准的邮件。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "插件",
+        "运营"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Outlook"
+      ]
+    },
+    {
+      "id": "forum-ios18-keyboard",
+      "added": "2026-11-07",
+      "title": "iOS 18 上 Grok Bot 1.24.1 一打字就闪退",
+      "url": "https://forum.cursor.com/t/grok-bot-1-24-1-crashes-when-opening-keyboard-iphone-15-pro-max-ios-18-6-2/177462",
+      "blurb": "员工确认这与键盘或重装无关，只出现在 iOS 18，聊天框和远程电脑里的输入框都会在打出第一个字时退出，临时可以改用麦克风口述、从别的应用粘贴，或转到桌面端。",
+      "section": "community",
+      "tags": [
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "iOS 18",
+        "1.24.1"
+      ]
+    },
+    {
+      "id": "forum-teach-recording",
+      "added": "2026-11-07",
+      "title": "「教它做任务」的录像停不下来，计时会冲过十分钟",
+      "url": "https://forum.cursor.com/t/grok-bot-web-shared-computer-stuck-in-recording/177433",
+      "blurb": "员工说保存录像失败在他们那边，停止按钮会报停不了，每只 Bot 的电脑画面计时都会超过十分钟上限，桌面端按先恢复、再更新、最后才重置的顺序处理，安卓只有重置，网页版没有恢复按钮。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Teach a task"
+      ]
+    },
+    {
+      "id": "tc-musk-throttle",
+      "added": "2026-11-07",
+      "title": "马斯克确认收紧 Grok Bot 额度：服务成本相对收入撑不住",
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "blurb": "万圣节周末有人并未通宵使用，周额度却从大约五成直接跳到用尽，马斯克确认这不是故障，而是服务成本相对订阅收入撑不住之后的主动收紧，当时没有公布新的上限数字。",
+      "section": "community",
+      "tags": [
+        "计费"
+      ],
+      "aliases": [
+        "TechCrunch",
+        "Elon Musk"
       ]
     }
   ]
