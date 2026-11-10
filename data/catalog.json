@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-10",
   "sections": [
     {
       "id": "official",
@@ -41688,6 +41688,422 @@
       ],
       "aliases": [
         "Cursor Forum"
+      ]
+    },
+    {
+      "id": "youtube-peter-quota-nine",
+      "added": "2026-11-10",
+      "title": "额度周末前烧光：粤语九招先查最费的那只",
+      "url": "https://www.youtube.com/watch?v=rcEtb5IWPJ8",
+      "blurb": "彼德按过去一周用量找出最费的那只 Bot，再讲疏规定时、能用连接器就别反复点网页、用交接笔记代替翻长对话、复制 Bot 重开起点，以及一次把需求和附件交齐。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "上手",
+        "多Bot"
+      ],
+      "aliases": [
+        "YouTube",
+        "彼德"
+      ]
+    },
+    {
+      "id": "tesla-china-playbook",
+      "added": "2026-11-10",
+      "title": "中国区特斯拉只读监控：密钥留在云电脑，默认不控车",
+      "url": "https://github.com/halksun/tesla-china-grokbot-playbook",
+      "blurb": "这份剧本写的是在 Bot 云电脑上接中国区车辆只读接口：例行先看缓存，睡着的车不会被唤醒，开锁和空调不在交付范围内，密钥也不进仓库。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Tesla",
+        "中国区"
+      ]
+    },
+    {
+      "id": "devto-resume-mcp",
+      "added": "2026-11-10",
+      "title": "用 Grok Bot 写简历：禁止编造指标，再用 MCP 收成可编辑草稿",
+      "url": "https://dev.to/mybee_team_efdb884f233a84/how-to-use-grok-bot-to-make-a-resume-with-an-mcp-server-that-does-the-formatting-45fm",
+      "blurb": "把经历交给 Bot 时它会写出没测过的数字，发一条消息接上 ResumeStart 的 MCP 后草稿进入私人编辑器，对岗位和筛选系统仍要自己改完再投。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "上手"
+      ],
+      "aliases": [
+        "DEV",
+        "ResumeStart",
+        "MCP"
+      ]
+    },
+    {
+      "id": "note-ren-slack-paths",
+      "added": "2026-11-10",
+      "title": "把 Grok Bot 接进 Slack：读写、被提及开工、直接开口是三条入口",
+      "url": "https://note.com/ren_ai_coach/n/nc2d55ee4e1f1",
+      "blurb": "作者让自己的 Grok Bot 以普通成员进 Slack，并当面问清官方连接器负责读写、被提及可以触发自动开工、从 Slack 直接开口又是另一条路。",
+      "section": "tutorials",
+      "tags": [
+        "插件",
+        "上手"
+      ],
+      "aliases": [
+        "note",
+        "Slack",
+        "ごろーさん"
+      ]
+    },
+    {
+      "id": "reddit-x-to-supabase",
+      "added": "2026-11-10",
+      "title": "留一个小额度 Bot 收 X，产出写进 Supabase 给别的 Agent",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xqy6kf/leaving_grokbot_figured_out_how_i_can_keep_the_x/",
+      "blurb": "他留着小额度的 Grok Bot 专门拉 X 上的材料，用一段已经跑通的提示把产出写进只有只读账号能查的 Supabase 表，给 Hermes 或 OpenBot 每天来读。",
+      "section": "tutorials",
+      "tags": [
+        "工程",
+        "多Bot"
+      ],
+      "aliases": [
+        "Reddit",
+        "Supabase",
+        "X"
+      ]
+    },
+    {
+      "id": "note-korg-false-cancel",
+      "added": "2026-11-10",
+      "title": "中文「预约取消」邮件：对过 Gmail 后确认是误发",
+      "url": "https://note.com/korg_lab/n/n2fe282303e9a",
+      "blurb": "报名马拉松后收到中文取消信，Bot 从 Gmail 找出原文并译成日语，对照 RUNNET 的付款完成信后草拟询问，作者自己发出，对方回复这是误发、报名仍然有效。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "note",
+        "Gmail",
+        "RUNNET"
+      ]
+    },
+    {
+      "id": "note-hiphop-weekly",
+      "added": "2026-11-10",
+      "title": "每周自动做一张 95 首的 HIPHOP 播放列表",
+      "url": "https://note.com/fine_willet821/n/n539e020f2486",
+      "blurb": "作者让 Bot 对照 Billboard、Shazam 和 DJcity 选曲，在 Spotify 排成九十五首列表，并设了每周定时，文里附了能照做的提示和实际卡住的地方。",
+      "section": "cases",
+      "tags": [
+        "上手",
+        "跑腿"
+      ],
+      "aliases": [
+        "note",
+        "Spotify"
+      ]
+    },
+    {
+      "id": "note-mtb-talk-edit",
+      "added": "2026-11-10",
+      "title": "把 11 段对谈交给 Grok Bot 接片、上字幕和图解",
+      "url": "https://note.com/mtb_ai/n/n84c5a5025fab",
+      "blurb": "作者把十一段对谈交给 Bot：在 Mac 上装好拼接工具，按文件名接上片头片尾并做淡入淡出，再依本地转写挑出重点，补上短字幕和手绘风图解，成片大约十三分半。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "电脑"
+      ],
+      "aliases": [
+        "note",
+        "Mac"
+      ]
+    },
+    {
+      "id": "substack-kane-throughput",
+      "added": "2026-11-10",
+      "title": "八天 60 项任务记成 142 小时：Throughput Bot 公开可装",
+      "url": "https://kanesimms.substack.com/p/grok-bot-saved-me-142-hours-in-8",
+      "blurb": "Kane Simms 用一组 Grok Bot 在八天里做完六十项发布任务，再让公开可装的 Throughput Bot 去问各岗这些活若亲手做要多久，汇总成一百四十二小时。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "Substack",
+        "Throughput",
+        "Kane Simms"
+      ]
+    },
+    {
+      "id": "youtube-shawn-audit",
+      "added": "2026-11-10",
+      "title": "清迈见面会上重做每月 399 美元的可见度审计",
+      "url": "https://www.youtube.com/watch?v=6RK6i-V1tJ8",
+      "blurb": "Shawn 在清迈见面会上用 Grok Bot 重做原本每月三百九十九美元的可见度审计，当场给书店做出买家提示词和竞品记分板，结果页挂在 pages.grok.bot。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "插件"
+      ],
+      "aliases": [
+        "YouTube",
+        "Shawn"
+      ]
+    },
+    {
+      "id": "x-rudfish-pages",
+      "added": "2026-11-10",
+      "title": "十四只 Bot 的产出改放到 Page，免得沉进聊天",
+      "url": "https://x.com/Rudfish/status/2119822658137096531",
+      "blurb": "他跑着大约十四只 Bot，产出一度全沉在聊天线程里，做完一次就找不到，改放到 Page 上当成会留下来的文档。",
+      "section": "cases",
+      "tags": [
+        "多Bot",
+        "运营"
+      ],
+      "aliases": [
+        "X",
+        "Pages",
+        "David Rudnick"
+      ]
+    },
+    {
+      "id": "x-scott-posthog",
+      "added": "2026-11-10",
+      "title": "试用做了真设置却没付款：先查 PostHog，再起草邮件",
+      "url": "https://x.com/scottvayner/status/2119819639437787508",
+      "blurb": "他让 Grok Bot 到 PostHog 里找出做过真实设置、还在试用且尚未付款的人，再按每人的实际操作起草一封短邮件。",
+      "section": "cases",
+      "tags": [
+        "销售"
+      ],
+      "aliases": [
+        "X",
+        "PostHog"
+      ]
+    },
+    {
+      "id": "grokbot-x-mcp-bridge",
+      "added": "2026-11-10",
+      "title": "把订阅里的 X 工具面桥成 Claude Code 和 Codex 能调的 MCP",
+      "url": "https://github.com/z20093100011/grokbot-x-mcp-bridge",
+      "blurb": "编程代理经本机网关用 Webhook 叫醒云端例程，原始帖文落在云电脑后再取回，冷启动来不及时先返回正在唤醒，用同样的参数重试就能拿到已经跑完的结果。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "MCP",
+        "X"
+      ]
+    },
+    {
+      "id": "fix-my-grokbot",
+      "added": "2026-11-10",
+      "title": "Mac 上查清 Grok Bot 为什么突然动不了邮件和浏览器",
+      "url": "https://github.com/txchai/fix-my-grokbot",
+      "blurb": "这支只读脚本在 Mac 上逐项弹出系统允许控制的提示，结束时打出通过或失败，并把要贴回 Bot 的本机指令放进剪贴板，输出里只有数量，没有姓名和邮件标题。",
+      "section": "skills",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Mac",
+        "osascript"
+      ]
+    },
+    {
+      "id": "saphid-raycast",
+      "added": "2026-11-10",
+      "title": "在 Raycast 里给某只 Grok Bot 发一句话，并留下投递回执",
+      "url": "https://github.com/saphid/grok-bots-raycast",
+      "blurb": "在 Raycast 里选中某只 Bot 之后，回车只打开草稿，确认键才真正发送，密钥留在本机私有目录，投递结果不明时保留请求号，避免把同一句又发一遍。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Raycast"
+      ]
+    },
+    {
+      "id": "slack-grok-bridge",
+      "added": "2026-11-10",
+      "title": "Slack 事件叫醒 Grok Bot：云电脑会睡，中继得单独常开",
+      "url": "https://github.com/ClawDogLabs/slack-grok-bridge",
+      "blurb": "醒着的主机可以用 Socket Mode 把 Slack 事件投进例程，云电脑闲置后会冻住收不到事件，这时改走一条常开的中继，两边唤醒 Bot 的载荷相同。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "GitHub",
+        "Slack",
+        "Socket Mode"
+      ]
+    },
+    {
+      "id": "gbot-migrate",
+      "added": "2026-11-10",
+      "title": "把一只 Grok Bot 整包迁到 Hermes、Muse 或 Your dot",
+      "url": "https://gitlab.com/aa22396584/grok-bot-cli",
+      "blurb": "这条命令默认识别并只读取一只 Bot 的人设、记忆、技能、例程和文件，导入后再读回提问核对，11 月 9 日的记录表明搬运本身不消耗 Grok Bot 额度。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "计费"
+      ],
+      "aliases": [
+        "GitLab",
+        "gbot migrate",
+        "Hermes"
+      ]
+    },
+    {
+      "id": "grokbot-clone",
+      "added": "2026-11-10",
+      "title": "开源平替：自备接口密钥，在 Orgo 上复刻常驻队友",
+      "url": "https://github.com/nickvasilescu/grokbot-clone",
+      "blurb": "你自备接口密钥后，每只 Bot 有独立桌面和记忆，同一账号共用一台 Orgo 云端虚拟机、同时最多四块桌面，写入外部应用前会停下来等你批准。",
+      "section": "alternatives",
+      "tags": [
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Orgo",
+        "Composio"
+      ]
+    },
+    {
+      "id": "forum-x-connector-blocks-browser",
+      "added": "2026-11-10",
+      "title": "有连接器时 Bot 连做不到的动作也拒绝，X 带图发帖因此卡住",
+      "url": "https://forum.cursor.com/t/grok-bot-forces-the-x-connector-no-image-upload-and-refuses-to-post-to-x-via-browser-since-nov-6/177702",
+      "blurb": "员工确认只要某个服务已经有连接器，连接器做不到的动作也会被一起拒绝，11 月 6 日起 X 连接器不能上传图片或视频，Bot 仍拒绝改用浏览器，带图帖只能停在草稿，跟帖里的 Facebook 广告也是同一堵墙，团队正在处理。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障",
+        "运营"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "X"
+      ]
+    },
+    {
+      "id": "forum-playwright-not-banned",
+      "added": "2026-11-10",
+      "title": "自己的项目仍可跑 Playwright，脚本不该去点云电脑桌面上那只浏览器",
+      "url": "https://forum.cursor.com/t/inquiry-and-feedback-regarding-browser-automation-restrictions-in-grok-bot-s-cloud-computer/177532",
+      "blurb": "员工确认并没有新政策禁止在自己的项目里用 Playwright 或 Puppeteer，现行限制只是不用脚本去驱动云电脑桌面上那只浏览器，而无头测试、测试套件和自己的 Mac 被拒绝属于过度拦截，可以让 Bot 在 Shell 里用自带无头浏览器跑脚本并把录像或截图存成文件。",
+      "section": "community",
+      "tags": [
+        "工程",
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Playwright"
+      ]
+    },
+    {
+      "id": "forum-sendprompt-502",
+      "added": "2026-11-10",
+      "title": "私有网关 sendPrompt 返回 502，webhook 会把正文交给例行任务",
+      "url": "https://forum.cursor.com/t/grok-bot-private-gateway-sendprompt-returns-502-while-reads-work/177688",
+      "blurb": "员工说用云电脑自己的凭证调用发送接口已被安全策略拒绝，所以读取仍成功、发送会变成 502，11 月 7 日那条测试消息并未入账，正确接法是每条外部消息单独 POST 一个 webhook，JSON 正文最多四千字并会进入该次运行。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "webhook"
+      ]
+    },
+    {
+      "id": "forum-mcp-image-1024",
+      "added": "2026-11-10",
+      "title": "MCP 交回的图片会先被压到长边 1024 像素，原图字节到不了电脑",
+      "url": "https://forum.cursor.com/t/grok-bot-drops-mcp-type-image-bytes-from-remote-tool-results-full-res-screenshots-unsavable/177756",
+      "blurb": "员工确认远程 MCP 交回的每张图在 Bot 看见之前都会被缩到长边至多 1024 像素，写到磁盘上的也是这张缩略图，改连接器说明拿不回原图，变通是在文字结果里再给原图下载链接或 Bot 够得着的路径，再由 Shell 把全尺寸文件拉下来。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "MCP"
+      ]
+    },
+    {
+      "id": "forum-rollback-tailscale",
+      "added": "2026-11-10",
+      "title": "重建只带走家目录和 workspace，Tailscale 状态与密钥要放在能留下来的位置",
+      "url": "https://forum.cursor.com/t/grok-bot-box-keeps-showing-rollback-to-a-2026-11-02-snapshot-state-snapshot-compare-exit-2/177693",
+      "blurb": "员工说明这台云电脑在 11 月 4 日到 8 日被多次迁移且用户没有按更新或重置，重建只保留家目录和 workspace，装在系统路径的 Tailscale 会丢，把状态目录放到家目录下启动才能让登录留下来，而 box-secrets 归运行服务所有是新机器的正常设计，密钥已注入环境变量，脚本应读环境变量。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "安全",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Tailscale"
+      ]
+    },
+    {
+      "id": "forum-crostini-glibcxx",
+      "added": "2026-11-10",
+      "title": "ChromeOS 默认 Debian 12 缺少 GLIBCXX，本机执行助手起不来",
+      "url": "https://forum.cursor.com/t/grok-bot-linux-crostini-chrome-os-app-works-but-fails-to-connect-for-computer-use-local-execution/177776",
+      "blurb": "员工确认本机执行助手需要比 Debian 12 更新的 C++ 运行库，而 ChromeOS 的 Linux 容器默认就是 Debian 12，所以应用能聊天、电脑却连不上，日志里是找不到 GLIBCXX_3.4.31，升级客户端也无效，本机命令要改到同一账号下的 Windows、macOS，或 Debian 13、Ubuntu 24.04 及更新的 Linux。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Crostini",
+        "ChromeOS"
+      ]
+    },
+    {
+      "id": "forum-personal-no-apps",
+      "added": "2026-11-10",
+      "title": "个人方案里，Grok Bot 拉起的云端代理没有 Cursor Apps 发布工具",
+      "url": "https://forum.cursor.com/t/grok-bot-doesnt-work-with-cursor-apps/177762",
+      "blurb": "员工确认这是当前限制而不是账号故障：没有团队的个人方案上，只有从 Cursor 自己发起的云端代理才带 Apps 发布工具，Grok Bot 拉起或续上的会话没有发布，预览和发布托盘不会出现，眼下要在 Cursor 聊天里发起这次改动再用那里的发布。",
+      "section": "community",
+      "tags": [
+        "工程",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Cursor Apps"
       ]
     }
   ]
