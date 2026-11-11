@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-12",
   "sections": [
     {
       "id": "official",
@@ -42104,6 +42104,463 @@
       "aliases": [
         "Cursor Forum",
         "Cursor Apps"
+      ]
+    },
+    {
+      "id": "youtube-whats-new-nov10",
+      "added": "2026-11-12",
+      "title": "官方更新：代打电话、iPhone 分享菜单和礼物清单",
+      "url": "https://www.youtube.com/watch?v=t9h9nZycPqQ",
+      "blurb": "代打电话要排队并按语音菜单找到真人，通话中能看逐字稿并随时接回来，目前只在美国部分州开放；iPhone 分享菜单可以把链接或文件交给指定 Bot，购物卡会标折扣和运费，团队 Bot 也能按人分享。",
+      "section": "official",
+      "tags": [
+        "跑腿",
+        "多Bot",
+        "电脑"
+      ],
+      "aliases": [
+        "YouTube",
+        "Matt Palmer"
+      ]
+    },
+    {
+      "id": "jike-chatcut-xiaolin",
+      "added": "2026-11-12",
+      "title": "三步把 ChatCut 接上，按参考片剪完数字人",
+      "url": "https://m.okjike.com/originalPosts/6af461f8320fd7e1b562254d",
+      "blurb": "把连接口令发给 Bot，它会自己读安装说明、接上 ChatCut 并沉淀参考片的分镜技能，再拿数字人素材把特效和 MG 动画一次剪完。",
+      "section": "tutorials",
+      "tags": [
+        "视频",
+        "插件"
+      ],
+      "aliases": [
+        "即刻",
+        "ChatCut"
+      ]
+    },
+    {
+      "id": "x-neuro-usage-split",
+      "added": "2026-11-12",
+      "title": "用量卡把「你、例行任务、Bot 互聊」拆开",
+      "url": "https://x.com/NeuroDeficient/status/2120578414025584953",
+      "blurb": "设置里的用量卡会把本周 Bot 额度拆成你自己、例行任务和 Bot 互聊，作者这周 57% 里互聊占了 31%，于是把例行收成工作日早上一次，并提醒测试按钮也会真扣额度。",
+      "section": "tutorials",
+      "tags": [
+        "计费",
+        "多Bot"
+      ],
+      "aliases": [
+        "X"
+      ]
+    },
+    {
+      "id": "reddit-verizon-call",
+      "added": "2026-11-12",
+      "title": "早报 Bot 打给 Verizon 谈账单，通话能看逐字稿",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xssdyg/grok_bot_has_a_phone_now/",
+      "blurb": "负责日常的 Bot 在早报里发现 Verizon 账单将到期，确认后用佛罗里达号码打出电话，需要本人拍板时会停下来问，全程能在逐字稿窗口里看着进行。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "reddit-unclaimed-wages",
+      "added": "2026-11-12",
+      "title": "三个州大约一千美元无人认领款，材料由 Bot 提交",
+      "url": "https://www.reddit.com/r/GrokBot/comments/1xsx3q7/grokbot_just_paid_for_itself/",
+      "blurb": "它在三个州找出大约一千美元无人认领款，包括 1980 年代汉堡王未付的工资，证明收齐后由本人签字拍照，再由 Bot 做成 PDF 在线提交，本人只花了不到十分钟。",
+      "section": "cases",
+      "tags": [
+        "跑腿"
+      ],
+      "aliases": [
+        "Reddit"
+      ]
+    },
+    {
+      "id": "x-lange-chatcut",
+      "added": "2026-11-12",
+      "title": "四段录屏交给 Grok Bot 和 ChatCut，对话里剪成一分钟",
+      "url": "https://x.com/0xlangeai/status/2120492559344791853",
+      "blurb": "蓝哥先让 Bot 挂上 ChatCut，再走网页上传四段终端录屏，在对话里切掉空等、加速成果页并补上字幕音效，导出约一分钟成片。",
+      "section": "cases",
+      "tags": [
+        "视频",
+        "插件"
+      ],
+      "aliases": [
+        "X",
+        "ChatCut"
+      ]
+    },
+    {
+      "id": "x-joepro-cron",
+      "added": "2026-11-12",
+      "title": "只负责检查的例行任务，改成云电脑上的定时脚本",
+      "url": "https://x.com/JoePro/status/2120568635252961503",
+      "blurb": "上周额度用满之后，审计 Bot 扫出一只每周触发一百一十九次的回复例行只占 1%，于是把只问有没有新情况的轮询改写成云电脑定时脚本，Bot 只在脚本发现东西时才醒来。",
+      "section": "cases",
+      "tags": [
+        "计费",
+        "电脑"
+      ],
+      "aliases": [
+        "X"
+      ]
+    },
+    {
+      "id": "youtube-allo-fleet",
+      "added": "2026-11-12",
+      "title": "21 人初创把客服、销售和财务交给 Grok Bot（官方工作坊）",
+      "url": "https://www.youtube.com/watch?v=Icw4uVHM1OE",
+      "blurb": "Allo 给每只 Bot 写岗位和指标，并配上电话和邮箱，总管叫 King，客服和试用跟进自己跑，现场还用 Allo 连接器接通一通接待电话。",
+      "section": "cases",
+      "tags": [
+        "销售",
+        "运营",
+        "多Bot"
+      ],
+      "aliases": [
+        "YouTube",
+        "Allo"
+      ]
+    },
+    {
+      "id": "substack-felix-receipts",
+      "added": "2026-11-12",
+      "title": "三四句话做完两个月记账，十九张收据对上银行流水",
+      "url": "https://byfelix.substack.com/p/ive-had-20-ideas-for-years-now-a",
+      "blurb": "他让 Grok Bot 从 Gmail 收齐两个月 19 张收据、传进记账软件并对上银行流水，核对后再提交，每月重复一次。",
+      "section": "cases",
+      "tags": [
+        "运营",
+        "跑腿"
+      ],
+      "aliases": [
+        "Substack"
+      ]
+    },
+    {
+      "id": "zenn-saa-exam-coach",
+      "added": "2026-11-12",
+      "title": "丢掉书和网课，两周只靠一只考试教练把 AWS SAA 考过",
+      "url": "https://zenn.dev/gemcook/articles/ea329a541c01bd",
+      "blurb": "前端作者做了一只名为 Exam Coach 的 Bot，早晚各十题、答错必须先讲原因，错题会换个样子再出现，第一次 610 分没过，实际学习大约十四天后考过。",
+      "section": "cases",
+      "tags": [
+        "上手"
+      ],
+      "aliases": [
+        "Zenn",
+        "AWS SAA"
+      ]
+    },
+    {
+      "id": "xai-dynasty-commish",
+      "added": "2026-11-12",
+      "title": "王朝联赛事务官：用比赛截图在 Discord 里跑每周推进",
+      "url": "https://x.ai/bot/J2OsFQCUot3M4pvLtYE03",
+      "blurb": "联赛主席仍拍板，这只可直接添加的 Bot 根据你发来的比赛截图，在 Discord 里处理周推进、对阵频道、竞猜、本周焦点战、战力榜和教练轮换。",
+      "section": "cases",
+      "tags": [
+        "运营"
+      ],
+      "aliases": [
+        "Discord"
+      ]
+    },
+    {
+      "id": "grokbot-and-pi",
+      "added": "2026-11-12",
+      "title": "把重编码交给本机 Pi，额度留给拆任务和核对",
+      "url": "https://github.com/Chasen-Liao/grokbot-and-pi",
+      "blurb": "把重编码、批量改文件和长文档交给同一台电脑上的本机 Pi，Grok Bot 的额度主要留在拆任务和核对上，执行改走你自己的模型账号。",
+      "section": "skills",
+      "tags": [
+        "工程",
+        "计费",
+        "插件"
+      ],
+      "aliases": [
+        "GitHub",
+        "Pi"
+      ]
+    },
+    {
+      "id": "grok-hermes-backup",
+      "added": "2026-11-12",
+      "title": "额度用尽后，改用 Hermes 里每周快照的备援角色接着干",
+      "url": "https://github.com/iamraven-tw/grok-hermes-backup",
+      "blurb": "每只 Grok Bot 在 Hermes 里对应一个备援角色，每周导出的人设、记忆、技能和排程平时不灌进 Hermes 记忆，脚本会挡住像密钥的内容，你已有别的同步方式时会先停下来问。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "计费",
+        "多Bot"
+      ],
+      "aliases": [
+        "GitHub",
+        "Hermes"
+      ]
+    },
+    {
+      "id": "jetbrains-youtrack",
+      "added": "2026-11-12",
+      "title": "YouTrack 工单、看板和知识库接进 Grok Bot",
+      "url": "https://github.com/0xGeeGee/jetbrains-grok-connector",
+      "blurb": "YouTrack 的永久令牌留在连接器里，Bot 只拿到另一把 MCP 口令，搜工单、改评论、传附件和管看板都走远程 HTTPS。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程"
+      ],
+      "aliases": [
+        "GitHub",
+        "YouTrack"
+      ]
+    },
+    {
+      "id": "grok-agent-threads",
+      "added": "2026-11-12",
+      "title": "用手机上的 Grok Bot 翻 Mac 里的 Claude 与 Codex 线程",
+      "url": "https://github.com/ArtemXTech/grok-agent-threads",
+      "blurb": "服务只听本机地址，云端 Bot 经 Tailscale 进来后可以列出、搜索并给已有的 Claude 或 Codex 会话发消息，仓库故意没有删除、归档或停止会话的工具。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "工程",
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "Tailscale"
+      ]
+    },
+    {
+      "id": "pilotlight",
+      "added": "2026-11-12",
+      "title": "PilotLight：Bot 正在操作 Mac 时菜单栏会亮",
+      "url": "https://github.com/bashcrandicoot/PilotLight",
+      "blurb": "这款菜单栏工具会在 Bot 控制 Mac 时给屏幕加一层柔光并亮出正在工作的小标，点击、滚动和打字仍能穿透，Bot 用一条命令开关，崩溃后亮着超过二十分钟会自己藏起来。",
+      "section": "skills",
+      "tags": [
+        "电脑"
+      ],
+      "aliases": [
+        "GitHub",
+        "macOS"
+      ]
+    },
+    {
+      "id": "devto-cloud-phone",
+      "added": "2026-11-12",
+      "title": "网页被亚马逊拦住后，改在云手机的官方 App 里比价",
+      "url": "https://dev.to/priya_negi_9ffd29931ea408/i-gave-grok-bot-access-to-a-mobile-heres-how-5ao",
+      "blurb": "亚马逊网页把云端浏览器拦住之后，用一条消息接上云手机的 MCP，Bot 就能在官方 App 里搜索、点按并比较前几名价格，花钱这一步仍要自己批。",
+      "section": "skills",
+      "tags": [
+        "插件",
+        "跑腿"
+      ],
+      "aliases": [
+        "DEV",
+        "Mobilerun"
+      ]
+    },
+    {
+      "id": "stackchan-desk-voice",
+      "added": "2026-11-12",
+      "title": "敲两下头顶，就能和桌面版 Grok Bot 语音通话",
+      "url": "https://zenn.dev/sora_biz/articles/stackchan-desk-voice",
+      "blurb": "双击头顶会当键盘送出 F13，Windows 脚本去点桌面版的语音按钮，麦克风和喇叭都走掌上机器人，文里还记下音量卡在一半、连点被传感器吃掉，以及不要整片擦除闪存。",
+      "section": "skills",
+      "tags": [
+        "电脑"
+      ],
+      "aliases": [
+        "Zenn",
+        "StackChan"
+      ]
+    },
+    {
+      "id": "elon-man",
+      "added": "2026-11-12",
+      "title": "周末约一百七十美元零件，给 Grok Bot 接上桌面身体",
+      "url": "https://github.com/AleiahLock/elon-man",
+      "blurb": "桌面机器人用大约一百七十美元零件和一台 3D 打印机，脑袋是已经接上邮件和例行的 Grok Bot，脖子会转向进门的人，语音可以说到一半被打断，汇款、发帖和删除仍要本人点头。",
+      "section": "skills",
+      "tags": [
+        "电脑",
+        "安全"
+      ],
+      "aliases": [
+        "GitHub",
+        "Elon Man"
+      ]
+    },
+    {
+      "id": "qiita-muse-first-day",
+      "added": "2026-11-12",
+      "title": "用惯 Muse 的人第一天对照 Grok Bot：共用一台电脑、不会擅自先动手",
+      "url": "https://qiita.com/hisashi-ito/items/98fb75fa8e4ced1e363b",
+      "blurb": "作者当天把约 3036 条 X 点赞收成带缩略图的报告并推进私有仓库，还写清全员共用一台电脑、不会擅自先动手，公开帖在次数上限内阅读本身不另收费。",
+      "section": "reviews",
+      "tags": [
+        "电脑",
+        "多Bot",
+        "计费"
+      ],
+      "aliases": [
+        "Qiita",
+        "Muse"
+      ]
+    },
+    {
+      "id": "x-nod-vs-grok",
+      "added": "2026-11-12",
+      "title": "订会议和发帖两件事：Grok Bot 对上 n8n 的 Nod",
+      "url": "https://x.com/krisvelkov/status/2120572045335678980",
+      "blurb": "Kristiyan 在自己电脑上装了 Nod，拿订会议和以本人账号发 X 做对照：订会议两边都能完成，但 Nod 要笔记本醒着，而 X 没有连接器，Grok Bot 靠云电脑和批准卡就能发出。",
+      "section": "reviews",
+      "tags": [
+        "电脑",
+        "计费"
+      ],
+      "aliases": [
+        "X",
+        "Nod"
+      ]
+    },
+    {
+      "id": "forum-token-git-remote",
+      "added": "2026-11-12",
+      "title": "安全卡里的 API 令牌会被 Bot 写进 Git 远程地址",
+      "url": "https://forum.cursor.com/t/api-tokens-saved-as-plain-text-in-grokbot/178000",
+      "blurb": "员工确认安全卡里的令牌会存在 Bot 电脑上并以环境变量交给命令，打码拦不住它被写进 Git 远程地址，克隆之后留在该仓库的配置里。",
+      "section": "community",
+      "tags": [
+        "安全",
+        "工程",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-mac-shipit",
+      "added": "2026-11-12",
+      "title": "Mac 应用内更新停在准备阶段：ShipIt 后台任务被禁用",
+      "url": "https://forum.cursor.com/t/mac-auto-update-for-grok-bot-fails/178103",
+      "blurb": "员工确认安装包已经下完，失败发生在准备阶段，macOS 拒绝启动安装助手 ShipIt 并报告该后台任务被禁用，清缓存或重装都不会变，要用 launchctl 把 com.anysphere.sand.ShipIt 重新启用后再检查更新。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-digest-gmail-only",
+      "added": "2026-11-12",
+      "title": "定时摘要发不出：自动发送规则只认 Gmail 和 Outlook",
+      "url": "https://forum.cursor.com/t/scheduled-digest-emails-to-my-own-inbox-blocked-since-nov-10/178004",
+      "blurb": "员工说明已保存的自动发送规则只对连上的 Gmail 或 Outlook 生效，Yahoo 没有连接器，Bot 自己的邮箱发出去也一律要草稿卡片，改走 Google 连接器后定时发送才恢复。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "运营",
+        "安全"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-slack-dm-fail",
+      "added": "2026-11-12",
+      "title": "Slack 私信一律回复没能完成，消息还没读到就失败",
+      "url": "https://forum.cursor.com/t/grok-bot-slack-app-every-dm-gets-i-couldnt-finish-this-one-something-went-wrong-on-my-end/177871",
+      "blurb": "员工确认这是服务端问题，Bot 在读到 Slack 私信之前就在准备回复时出错，重装应用没有用，从应用发往 Slack 的出站仍然正常。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Slack"
+      ]
+    },
+    {
+      "id": "forum-slack-empty-vm",
+      "added": "2026-11-12",
+      "title": "Slack 会话落在另一台空虚拟机上，技能和密钥都读不到",
+      "url": "https://forum.cursor.com/t/grok-bot-slack-session-stuck-on-a-stray-empty-computer-for-2-weeks/177828",
+      "blurb": "Slack 私信用的机器和主机会话不是同一台，技能、账本和密钥都加载失败，重新绑定只会再换一台空虚拟机，员工在后端调过一次后，新的顶层私信复测仍然落在那台空机器上。",
+      "section": "community",
+      "tags": [
+        "插件",
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Slack"
+      ]
+    },
+    {
+      "id": "forum-ios-push-idle",
+      "added": "2026-11-12",
+      "title": "手机推送看的是键鼠是否空闲，不是桌面应用开着没有",
+      "url": "https://forum.cursor.com/t/grok-bot-ios-push-notifications-unreliable-when-desktop-app-is-always-running/177888",
+      "blurb": "员工说明手机推送不看桌面应用是否开着，而看这台电脑最近有没有键盘或鼠标活动，正在推出的更新会在桌前还有活动时先压住推送，等电脑闲置大约十分钟再送到手机。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-sleeping-not-stuck",
+      "added": "2026-11-12",
+      "title": "侧栏 Sleeping 不是卡住，但这台机器的命令从那天起不再启动",
+      "url": "https://forum.cursor.com/t/grok-bot-computer-stuck-on-sleeping-for-44-hours-cannot-wake-ticket-t-j61050/177898",
+      "blurb": "员工澄清侧栏上的 Sleeping 不是卡住，需要时一两秒就能醒来，但这台机器从 11 月 8 日北京时间约 8 点 20 分起命令不再启动，启动文件改完要重启才生效，显示已是最新时没有更新按钮。",
+      "section": "community",
+      "tags": [
+        "电脑",
+        "排障"
+      ],
+      "aliases": [
+        "Cursor Forum"
+      ]
+    },
+    {
+      "id": "forum-browser-proxy-down",
+      "added": "2026-11-12",
+      "title": "内置浏览器集体退出：playwright-proxy 没有可调用工具",
+      "url": "https://forum.cursor.com/t/grok-bot-browser-down-on-every-bot-playwright-proxy-mcp-server-exited-no-update-button/177954",
+      "blurb": "员工确认内置浏览器进程停掉后不会自己回来，所以体检全过、出口也在听，所有 Bot 的浏览仍报 playwright-proxy 已退出且没有可调用工具，目前较常恢复的是设置里的重置，未同步的近期工作可能丢掉。",
+      "section": "community",
+      "tags": [
+        "排障",
+        "电脑",
+        "插件"
+      ],
+      "aliases": [
+        "Cursor Forum",
+        "Playwright"
       ]
     }
   ]

@@ -142,7 +142,9 @@ assert(slack.includes("substack-sischool-exception"), "Slack misses Team Bot 经
 assert(slack.includes("youtube-matt-team"), "Slack misses Matt Palmer 全队副本");
 assert(slack.includes("slack-grok-bridge"), "Slack misses 云电脑睡着时的 Slack 中继");
 assert(slack.includes("note-ren-slack-paths"), "Slack misses note 三条 Slack 入口");
-assert(slack.length === 31, `Slack should be plugin + tutorials + private-invite + notes + workshop + vasco + unlink + team-bots + hn-team-bots + course + taylor + vincent + shinkodaira + eric + logan + agents-bridge + geboku + matt-oct7 + lauren + whats-new-1 + hn-slack-same-name + forum-slack-handoff-owner + jamespember + bank-slack + ship-code-scale + team-exception + forum-slack-unbound + matt-team + slack-grok-bridge + note-ren-slack-paths, got ${slack.length}: ${slack.join(",")}`);
+assert(slack.includes("forum-slack-dm-fail"), "Slack misses Slack 私信在读到之前就失败");
+assert(slack.includes("forum-slack-empty-vm"), "Slack misses Slack 会话落在空虚拟机");
+assert(slack.length === 33, `Slack should be plugin + tutorials + private-invite + notes + workshop + vasco + unlink + team-bots + hn-team-bots + course + taylor + vincent + shinkodaira + eric + logan + agents-bridge + geboku + matt-oct7 + lauren + whats-new-1 + hn-slack-same-name + forum-slack-handoff-owner + jamespember + bank-slack + ship-code-scale + team-exception + forum-slack-unbound + matt-team + slack-grok-bridge + note-ren-slack-paths + forum-slack-dm-fail + forum-slack-empty-vm, got ${slack.length}: ${slack.join(",")}`);
 
 const skill = hits("技能");
 assert(skill.includes("docs-skills-routines"), "技能 misses 技能与例程");
